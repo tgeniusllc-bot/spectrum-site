@@ -1,0 +1,1013 @@
+{
+  "home": {
+    "__typename": "Page",
+    "title": "Home",
+    "homeHero": {
+      "__typename": "HomeHero",
+      "homeHeroTitle": "Spectrum Psychiatry",
+      "homeHeroDescription": "Connecting Minds, Building Wellness. Start Your Journey Now",
+      "homeHeroBackgroudImage": {
+        "homeHeroImageEnabledDisabled": [
+          "Enabled"
+        ],
+        "homeHeroBackgroudImageUrl": {
+          "node": {
+            "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284490/reba-spike-oJpnd4RxI0k-unsplash-scaled_yyvtdi.jpg"
+          }
+        }
+      },
+      "homeHeroHeading": {
+        "homeHeroHeadingTitle": null,
+        "homeHeroHeadingButtonLink": "/contact",
+        "homeHeroHeadingButtonName": null
+      },
+      "homeHeroButton": {
+        "homeHeroButtonLink": "/contact",
+        "homeHeroButtonName": "Get Started",
+        "homeHeroButtonEnabled": [
+          "Enabled"
+        ]
+      }
+    },
+    "featureSection": {
+      "__typename": "FeatureSection",
+      "featureSectionEnabledDisabled": [
+        "Enabled"
+      ],
+      "featureSectionDescription": "At Spectrum Psychiatry in Irvine, CA, Dr. Cuneyt Tegin, MD, and his team prioritize your mental health and well-being. We provide individual, along with specialized services such as suboxone treatment, ketamine treatment, and medication management. Contact us today for more information or to schedule an appointment. Our office is conveniently located at 15615 Alton Pkwy Ste 220, Irvine, California, 92618",
+      "numberOfColumns": "2",
+      "featureSectionFeatures": [
+        {
+          "featuresDescription": "Spectrum Psychiatry accepts Aetna, Anthem Blue Cross California, Blue Shield of California, Cigna, Magellan, Kaiser Permanente of Northern CA",
+          "featuresTitle": "Accepted Insurances"
+        },
+        {
+          "featuresDescription": "Acquire tools and techniques for managing stress, anxiety, and other mental health issues, contributing to overall well-being. Therapy encourages self-reflection, self-awareness and insight into your thoughts, feelings, and behaviors.",
+          "featuresTitle": "Benefits "
+        },
+        {
+          "featuresDescription": "Spectrum Psychiatry are dedicated in assisting you in developing effective coping mechanisms to navigate your life's challenges and stressors. ",
+          "featuresTitle": "Dedication"
+        },
+        {
+          "featuresDescription": "Initial session: $500 for 60 minutes\r\n\r\nOngoing session: $250 for 30 minutes\r\n\r\nSpectrum Psychiatry will only charge you for the amount you pay after you get reimbursed from your insurance plan, so you don’t need to pay the session fee upfront\r\n",
+          "featuresTitle": "Out of Pocket Fees"
+        }
+      ],
+      "featureSectionHeading": null,
+      "featureSectionTitle": "Your Wellness",
+      "featureSectionImageUrl": {
+        "node": {
+          "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284485/happywomanyellow_tsufss.webp"
+        }
+      }
+    },
+    "alternatingBlock": {
+      "__typename": "AlternatingBlock",
+      "alternatingBlockEnabledDisabled": [
+        "Enabled"
+      ],
+      "block": [
+        {
+          "alternatingBlockLayout": [
+            "Layout A"
+          ],
+          "alternatingBlockHeading": "Conquer Today",
+          "alternatingBlockContent": [
+            {
+              "alternatingBlockContentTitle": "Our Goal",
+              "alternatingBlockContentDescription": "To add an integrated approach to health by connecting mental well-being, while delivering exceptional services to our patients."
+            },
+            {
+              "alternatingBlockContentTitle": "Our Passion",
+              "alternatingBlockContentDescription": "Attentively hear and understand our patients.\r\n\r\nUphold the highest clinical standards in practice.\r\n\r\nCompassion for both patients and their needs.\r\n\r\nBase treatment decisions on patient needs and preferences.\r\n\r\nAdhere to the ethical principles of professional conduct."
+            }
+          ],
+          "alternatingBlockButton": {
+            "alternatingBlockButtonName": "Learn More",
+            "alternatingBlockButtonLink": "/",
+            "alternatingBlockButtonEnabled": [
+              "Enabled"
+            ]
+          },
+          "alternatingBlockImage": {
+            "node": {
+              "description": null,
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284489/jed-villejo-bEcC0nyIp2g-unsplash-scaled_kkhhah.jpg"
+            }
+          }
+        },
+        {
+          "alternatingBlockLayout": [
+            "Layout B"
+          ],
+          "alternatingBlockHeading": "Looking Forward",
+          "alternatingBlockContent": [
+            {
+              "alternatingBlockContentTitle": "Spectrum Psychiatry ",
+              "alternatingBlockContentDescription": "Offers comprehensive care for adults experiencing various mental health disorders, encompassing, but not limited to: obsessive-compulsive disorder (OCD), bipolar disorder, anxiety, hyperactivity disorder, PTSD, ketamine treatment, major depressive disorder, suboxone, and schizophrenia"
+            }
+          ],
+          "alternatingBlockButton": {
+            "alternatingBlockButtonName": "Learn More",
+            "alternatingBlockButtonLink": "/",
+            "alternatingBlockButtonEnabled": [
+              "Enabled"
+            ]
+          },
+          "alternatingBlockImage": {
+            "node": {
+              "description": null,
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284485/happywomanyellow_tsufss.webp"
+            }
+          }
+        }
+      ]
+    },
+    "bannerCarouselBlock": {
+      "__typename": "BannerCarouselBlock",
+      "bannerCarouselBlockEnabledDisabled": [
+        "Enabled"
+      ],
+      "bannerCarouselBlockDescription": "Explore these informative articles to expand your understanding. ",
+      "bannerCarouselBlockTitle": "Check out our work",
+      "bannerCarouselBlockImagesCarousel": {
+        "edges": [
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284488/farshad-rezvanian-Eelegt4hFNc-unsplash-scaled_tf0p1o.jpg"
+            }
+          },
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284489/robin-lyon-jEEPRFB3AaM-unsplash-scaled_n4selb.jpg"
+            }
+          },
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284489/filios-sazeides-OyPnq6HgMc-unsplash-scaled_qlxvk3.jpg"
+            }
+          }
+        ]
+      }
+    },
+    "homeContentSection": {
+      "__typename": "HomeContentSection",
+      "homeContentSectionEnabledDisabled": [
+        "Disabled"
+      ],
+      "homeContentSectionContent": [
+        {
+          "__typename": "HomeContentSectionHomeContentSectionContent",
+          "contentTitle": "Spectrum Psychiatry",
+          "contentDescription": "One in five adults face challenges related to mental health. Are you dealing with a problem? Are you dealing with addiction? How are you managing your life. How do you support yourself. "
+        }
+      ],
+      "homeContentSectionImages": {
+        "edges": [
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284487/happycouple-scaled_itqrlp.jpg"
+            }
+          },
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284487/therapyphoto_b85rtz.jpg"
+            }
+          },
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284487/couples-therapy_ewkqny.jpg"
+            }
+          }
+        ]
+      }
+    },
+    "servicesGrid": {
+      "__typename": "ServicesGrid",
+      "servicesGridCardStyles": [
+        "Style Two"
+      ],
+      "servicesGridCardEnabledDisabled": [
+        "Enabled"
+      ],
+      "gridTitleSection": {
+        "gridCardSectionTitle": "Spectrum Psychiatry",
+        "gridCardSectionHeading": "Your Start to Lasting Mental Health",
+        "gridCardSectionDescription": "Booking is available through phone and online booking. Contact Us today. "
+      },
+      "servicesGridCards": [
+        {
+          "servicesGridCardTitle": "Medication Management",
+          "servicesGridCardDescription": "Careful prescription, monitoring, and adjustment of medications tailored to address mental health conditions. Under the guidance of Dr. Cuneyt Tegin, MD, to identify the most suitable medication and dosage.",
+          "servicesGridCardLink": "/medication-management-therapy"
+        },
+        {
+          "servicesGridCardTitle": "Suboxone Treatment",
+          "servicesGridCardDescription": "Suboxone is a prescription medication designed to help opioid use disorder. To help with withdrawal and cravings for opioids. ",
+          "servicesGridCardLink": "/suboxone-therapy"
+        },
+        {
+          "servicesGridCardTitle": "Individual Therapy",
+          "servicesGridCardDescription": "Explore your thoughts, emotions, and challenges or strengthen your relationship and improve communication services.",
+          "servicesGridCardLink": "/individual-therapy"
+        },
+        {
+          "servicesGridCardTitle": "Ketamine Treatment",
+          "servicesGridCardDescription": "An efficient alternative for treatment-resistant depression (TRD) or major depressive disorder (MDD) who have suicidal thoughts or behaviors. ",
+          "servicesGridCardLink": "/ketamine-treatment"
+        }
+      ]
+    },
+    "blockWithImageTiles": {
+      "__typename": "BlockWithImageTiles",
+      "enabledDisabled": [
+        "Enabled"
+      ],
+      "content": {
+        "heading": "Spectrum Psychiatry",
+        "description": "One in five adults face challenges related to mental health. Are you dealing with a problem? Are you dealing with addiction? How are you managing your life. How do you support yourself. ",
+        "descriptionTwo": null,
+        "button": {
+          "enabledDisabled": [
+            "Enabled"
+          ],
+          "buttonName": "Get Started",
+          "buttonLink": "/contact"
+        }
+      },
+      "images": {
+        "edges": [
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284487/couples-therapy_ewkqny.jpg"
+            }
+          },
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284487/therapyphoto_b85rtz.jpg"
+            }
+          },
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284487/happycouple-scaled_itqrlp.jpg"
+            }
+          },
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284486/happyfamilyonbeach_efapza.jpg"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "about": {
+    "__typename": "Page",
+    "acfAboutPage": {
+      "__typename": "AcfAboutPage",
+      "aboutPageBlocks": {
+        "aboutHero": {
+          "aboutHeroHeading": "Spectrum Psychiatry",
+          "aboutHeroDescription": "Learn more about Dr. Cuneyt Tegin and Dr. Gulay Tegin",
+          "aboutHeroContentSection": [
+            {
+              "aboutHeroContentSectionDescription": "Dr. Cuneyt Tegin, is a distinguished psychiatrist, practices at Spectrum Psychiatry in Irvine, CA. He completed his residency in psychiatry at the University of Louisville. He then completed a fellowship at Harvard University."
+            },
+            {
+              "aboutHeroContentSectionDescription": "Addresses a spectrum of mental health concerns, offering specialized care for obsessive-compulsive disorder (OCD), bipolar disorder, anxiety, hyperactivity disorder, and schizophrenia. Dr. Tegin is a member of various prestigious associations, including the American Psychiatric Association, American Society of Addiction Medicine, American Telemedicine Association, and International Association for Jungian Studies."
+            },
+            {
+              "aboutHeroContentSectionDescription": "Some of his notable awards include the APA Research Colloquium for Junior Psychiatrist Investigators in 2020 and the UofL Psychiatry Residency Research Award in 2015 and 2017, showcasing his dedication to advancing psychiatric research"
+            },
+            {
+              "aboutHeroContentSectionDescription": null
+            },
+            {
+              "aboutHeroContentSectionDescription": null
+            }
+          ]
+        },
+        "aboutStatsSection": {
+          "aboutStatsEnabledDisabled": [
+            "Enabled"
+          ],
+          "aboutStats": [
+            {
+              "aboutStatsTitle": "9.5 Million ",
+              "aboutStatsDescription": "Adults deal with substance disorder"
+            },
+            {
+              "aboutStatsTitle": "51.5 Million",
+              "aboutStatsDescription": "Adults have a mental illness"
+            },
+            {
+              "aboutStatsTitle": "12.1 Million",
+              "aboutStatsDescription": "Adults report having serious thoughts of suicide"
+            },
+            {
+              "aboutStatsTitle": "689,308 ",
+              "aboutStatsDescription": "Divorces happen a year"
+            }
+          ]
+        },
+        "aboutImage": {
+          "__typename": "AcfAboutPageAboutPageBlocksAboutImage",
+          "aboutImageEnabledDisabled": [
+            "Enabled"
+          ],
+          "image": {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284493/toa-heftiba-ErARlswBUFM-unsplash-scaled_c53yaa.jpg"
+            }
+          }
+        },
+        "aboutOurValues": {
+          "aboutOurValuesEnabledDisabled": [
+            "Enabled"
+          ],
+          "aboutOurValuesTitle": null,
+          "aboutOurValuesDescription": null,
+          "aboutOurValuesList": [
+            {
+              "aboutOurValuesListIcon": "lorem",
+              "aboutOurValuesListTitle": "Board certifications",
+              "aboutOurValuesListDescription": "American Board of Psychiatry and Neurology.\r\nAmerican Board of Preventive Medicine.\r\nPsychiatry (American Board of Psychiatry and Neurology)."
+            },
+            {
+              "aboutOurValuesListIcon": "lorem",
+              "aboutOurValuesListTitle": "Education and training",
+              "aboutOurValuesListDescription": "Medical School - Pamukkale Üniversitesi Tip Fakültesi.\r\nUniversity of Louisville, Residency in Psychiatrist.\r\nHarvard University (Fellowship)."
+            },
+            {
+              "aboutOurValuesListIcon": "lorem",
+              "aboutOurValuesListTitle": "Professional memberships",
+              "aboutOurValuesListDescription": "American Psychiatric Association.\r\nAmerican Society of Addiction Medicine.\r\nAmerican Telemedicine Association.\r\nInternational Association for Jungian Studies.\r\nDr. Cuneyt Tegin is board certified in Addiction Medicine by American Board of Preventive Medicine."
+            },
+            {
+              "aboutOurValuesListIcon": "lorem",
+              "aboutOurValuesListTitle": "Awards and publications",
+              "aboutOurValuesListDescription": "APA Research Colloquium for Junior Psychiatrist Investigators- 2020.\r\nUofL Psychiatry Residency Research Award - 2017.\r\nPsychopharmacology Association Young Researcher Scholarship-2016."
+            },
+            {
+              "aboutOurValuesListIcon": "lorem",
+              "aboutOurValuesListTitle": null,
+              "aboutOurValuesListDescription": null
+            },
+            {
+              "aboutOurValuesListIcon": "lorem",
+              "aboutOurValuesListTitle": null,
+              "aboutOurValuesListDescription": null
+            }
+          ]
+        },
+        "aboutOurTeam": {
+          "aboutOurTeamEnabledDisabled": [
+            "Enabled"
+          ],
+          "aboutOurTeamTitle": "Meet the Team Members",
+          "aboutOurTeamDescription": "Dedicated to your needs.",
+          "teamMember": [
+            {
+              "teamMemberImage": {
+                "node": {
+                  "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284490/drteginpicture_bvilec.jpg"
+                }
+              },
+              "teamMemberName": "Dr. Cuneyt Tegin, MD",
+              "teamMemberRole": "Psychiatrist, Addiction Specialist",
+              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+            },
+            {
+              "teamMemberImage": {
+                "node": {
+                  "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284484/IMG_2322-scaled_ejkpqh.jpg"
+                }
+              },
+              "teamMemberName": "Dr. Gulay Tegin, MD",
+              "teamMemberRole": "Psychiatrist",
+              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+            },
+            {
+              "teamMemberImage": {
+                "node": {
+                  "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284292/image_2024-11-15_142247615_f5syki.png"
+                }
+              },
+              "teamMemberName": "Dr. Ismail Deniz, MD",
+              "teamMemberRole": "Psychiatrist",
+              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+            }
+          ]
+        },
+        "aboutJoinOurTeam": {
+          "joinOurTeamEnabledDisabled": [
+            "Enabled"
+          ],
+          "joinOurTeamImage": {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284484/IMG_2322-scaled_ejkpqh.jpg"
+            }
+          },
+          "joinOurTeamTitle": "Dr. Gulay Tegin",
+          "joinOurTeamDescription": "I received my medical degree in Turkey. After graduating from medical school, I completed two years of mandatory service as a general practitioner in an underserved area near the Syrian border during the beginning of Syrian Civil War. While working there, I noticed that people mostly seek help for their physical illnesses and wounds. But some injuries/sufferings are not seen and yet pain the most. I realized that invisible wounds are the hardest to heal. It requires love, patience, understanding, and emotional support for their closure. I came to the USA to gain a deep understanding on the biology of brain and mental illnesses.\r\n\r\nI worked at the Mood Disorder Research Laboratory for 3 years. I did some clinical work and volunteering at the Survivors of Torture Recovery Center which is founded by the U.S. Department of Health and Human Services (DHHS). Then, I completed my adult psychiatry residency training at the University of Louisville.\r\n\r\nI have treated a diverse population of patients with many different diagnoses. I utilize the bio-psycho-social approach and provide medication management with psychotherapy to address mental health issues. I am dedicated to providing a holistic, emphatic and patient-centered approach.",
+          "joinOurTeamList": [
+            {
+              "joinOurTeamListIcon": null,
+              "joinOurTeamTitle": null
+            },
+            {
+              "joinOurTeamListIcon": null,
+              "joinOurTeamTitle": null
+            },
+            {
+              "joinOurTeamListIcon": null,
+              "joinOurTeamTitle": null
+            },
+            {
+              "joinOurTeamListIcon": null,
+              "joinOurTeamTitle": null
+            }
+          ],
+          "joinOurTeamButton": {
+            "joinOurTeamButtonEnabledDisabled": [
+              "Disabled"
+            ],
+            "joinOurTeamButtonTitle": "See our Articles",
+            "joinOurTeamButtonLink": "https://news.harvard.edu/gazette/story/2023/05/ketamine-found-effective-in-treatment-resistant-depression/"
+          }
+        }
+      }
+    }
+  },
+  "medicationManagementTherapy": {
+    "__typename": "Page",
+    "title": "Medication Management",
+    "servicesHero": {
+      "__typename": "ServicesHero",
+      "servicesHeroTitle": "Medication Management",
+      "servicesHeroDescription": null,
+      "servicesHeroBackgroudImage": {
+        "servicesHeroImageEnabledDisabled": [
+          "Enabled"
+        ],
+        "servicesHeroBackgroudImageUrl": {
+          "node": {
+            "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284483/vonecia-carswell-0aMMMUjiiEQ-unsplash-scaled_avhpd8.jpg"
+          }
+        }
+      },
+      "servicesHeroButton": {
+        "servicesHeroButtonName": "Get Started",
+        "servicesHeroButtonLink": "/",
+        "servicesHeroButtonEnabled": [
+          "Enabled"
+        ]
+      }
+    },
+    "featureSection": {
+      "__typename": "FeatureSection",
+      "featureSectionEnabledDisabled": [
+        "Enabled"
+      ],
+      "featureSectionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "numberOfColumns": "2",
+      "featureSectionFeatures": [
+        {
+          "featuresDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis nisl rhoncus mattis rhoncus urna neque.",
+          "featuresTitle": "Lorem ipsum"
+        }
+      ],
+      "featureSectionHeading": "Spectrum Psychiatry",
+      "featureSectionTitle": "Lorem ipsum dolor",
+      "featureSectionImageUrl": {
+        "node": {
+          "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284484/axville-HDJ-bbtF3Qc-unsplash-scaled_cr4j7d.jpg"
+        }
+      }
+    },
+    "alternatingBlock": {
+      "__typename": "AlternatingBlock",
+      "alternatingBlockEnabledDisabled": [
+        "Enabled"
+      ],
+      "block": [
+        {
+          "alternatingBlockLayout": [
+            "Layout A"
+          ],
+          "alternatingBlockHeading": "Spectrum Psychiatry",
+          "alternatingBlockContent": [
+            {
+              "alternatingBlockContentTitle": "Benefits ",
+              "alternatingBlockContentDescription": "Benefits for patients start with reduced risks for drug reactions, better symptom control, improved medication adherence, and ends with an overall enhanced quality of life. "
+            }
+          ],
+          "alternatingBlockButton": {
+            "alternatingBlockButtonName": "Learn More",
+            "alternatingBlockButtonLink": "/",
+            "alternatingBlockButtonEnabled": [
+              "Enabled"
+            ]
+          },
+          "alternatingBlockImage": {
+            "node": {
+              "description": null,
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284483/harli-marten-M9jrKDXOQoU-unsplash-scaled_jzby88.jpg"
+            }
+          }
+        },
+        {
+          "alternatingBlockLayout": [
+            "Layout B"
+          ],
+          "alternatingBlockHeading": "Spectrum Psychiatry",
+          "alternatingBlockContent": [
+            {
+              "alternatingBlockContentTitle": "Lorem ipsum dolor",
+              "alternatingBlockContentDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+            }
+          ],
+          "alternatingBlockButton": {
+            "alternatingBlockButtonName": "Learn More",
+            "alternatingBlockButtonLink": "/",
+            "alternatingBlockButtonEnabled": [
+              "Enabled"
+            ]
+          },
+          "alternatingBlockImage": {
+            "node": {
+              "description": null,
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284482/gabriella-clare-marino-7mefr2-57Tg-unsplash-scaled_fq7cnr.jpg"
+            }
+          }
+        }
+      ]
+    },
+    "bannerCarouselBlock": {
+      "__typename": "BannerCarouselBlock",
+      "bannerCarouselBlockEnabledDisabled": [
+        "Disabled"
+      ],
+      "bannerCarouselBlockDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis nisl rhoncus mattis rhoncus urna neque.",
+      "bannerCarouselBlockTitle": "Check out our work",
+      "bannerCarouselBlockImagesCarousel": null
+    },
+    "references": {
+      "__typename": "References",
+      "enabledDisabled": [
+        "Disabled"
+      ],
+      "title": "References",
+      "heading": "References",
+      "description": null,
+      "referenceList": null
+    }
+  },
+  "suboxoneTherapy": {
+    "__typename": "Page",
+    "title": "Suboxone Treatment",
+    "servicesHero": {
+      "__typename": "ServicesHero",
+      "servicesHeroTitle": "Suboxone Treatment",
+      "servicesHeroDescription": "Stop your addiction",
+      "servicesHeroBackgroudImage": {
+        "servicesHeroImageEnabledDisabled": [
+          "Enabled"
+        ],
+        "servicesHeroBackgroudImageUrl": {
+          "node": {
+            "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284484/spring-fed-images-CKYdtIyd_mw-unsplash-scaled_xoc7as.jpg"
+          }
+        }
+      },
+      "servicesHeroButton": {
+        "servicesHeroButtonName": "Get Started",
+        "servicesHeroButtonLink": "/",
+        "servicesHeroButtonEnabled": [
+          "Enabled"
+        ]
+      }
+    },
+    "featureSection": {
+      "__typename": "FeatureSection",
+      "featureSectionEnabledDisabled": [
+        "Enabled"
+      ],
+      "featureSectionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "numberOfColumns": "1",
+      "featureSectionFeatures": [
+        {
+          "featuresDescription": "Craving is a distressing symptom of opioid use disorder (OUD) that can be alleviated with medications for OUD (MOUD). Buprenorphine is an effective MOUD that may suppress craving; however, treatment discontinuation and resumed opioid use is common during the early phases of treatment. This systematic review investigated buprenorphine doses and formulations on craving during the induction and maintenance phases of treatment, and for context also compared the craving response to other MOUD (i.e., methadone, extended-release naltrexone [XR-NTX]).\r\n\r\nA total of 10 studies were selected for inclusion. Buprenorphine and buprenorphine/naloxone (BUP/NAL) were each associated with lower craving than placebo over time. Craving was greater among those prescribed lower versus higher buprenorphine doses. In comparison to other MOUD, buprenorphine or BUP/NAL was linked to greater craving than methadone in 3 of the 6 studies. BUP/NAL was associated with greater reported craving than XR-NTX.\r\n\r\nCraving is reduced over time with buprenorphine and BUP/NAL, although other MOUD may provide greater reductions in craving. ",
+          "featuresTitle": "Buprenorphine is effective for Opioid craving"
+        },
+        {
+          "featuresDescription": "Researchers assessed the effects of buprenorphine versus tapered doses of methadone, alpha2-adrenergic agonists, symptomatic medications or placebo, or different buprenorphine regimens for managing opioid withdrawal, in terms of the intensity of the withdrawal syndrome experienced, duration and completion of treatment, and adverse effects.\r\n\r\n27 studies involving 3048 participants included in the review. For the comparison of buprenorphine and methadone in tapered doses, meta-analysis was not possible for the outcomes of intensity of withdrawal or adverse effects. The meta-analyses that were possible support a conclusion of no difference between buprenorphine and methadone in terms of average treatment duration (mean difference (MD) 1.30 days, 95% confidence interval (CI) -8.11 to 10.72; N = 82; studies = 2; low quality) or treatment completion rates (risk ratio (RR) 1.04, 95% CI 0.91 to 1.20; N = 457; studies = 5; moderate quality). Relative to clonidine or lofexidine, buprenorphine was associated with a lower average withdrawal score (indicating less severe withdrawal) during the treatment episode, with an effect size that is considered to be small to moderate (standardised mean difference (SMD) -0.43, 95% CI -0.58 to -0.28; N = 902; studies = 7; moderate quality). Patients receiving buprenorphine stayed in treatment for longer, with an effect size that is considered to be large (SMD 0.92, 95% CI 0.57 to 1.27; N = 558; studies = 5; moderate quality) and were more likely to complete withdrawal treatment (RR 1.59, 95% CI 1.23 to 2.06; N = 1264; studies = 12; moderate quality). At the same time there was no significant difference in the incidence of adverse effects, but dropout due to adverse effects may be more likely with clonidine (RR 0.20, 95% CI 0.04 to 1.15; N = 134; studies = 3; low quality). The difference in treatment completion rates translates to a number needed to treat for an additional beneficial outcome of 4 (95% CI 3 to 6), indicating that for every four people treated with buprenorphine, we can expect that one additional person will complete treatment than with clonidine or lofexidine. \r\n\r\nBuprenorphine is more effective than clonidine or lofexidine for managing opioid withdrawal in terms of severity of withdrawal, duration of withdrawal treatment, and the likelihood of treatment completion.Buprenorphine and methadone appear to be equally effective.",
+          "featuresTitle": "Buprenorphine and methadone appear to be equally effective"
+        },
+        {
+          "featuresDescription": "A systematic review and metanalysis aimed to compare pregnancy outcomes between pregnant women undergoing treatment for opioid use disorder with buprenorphine-naloxone and those undergoing treatment for opioid use disorder with other forms of medication-assisted treatment.\r\n\r\nOutcomes assessed included neonatal abstinence syndrome diagnosis and treatment, neonatal intensive care unit admission, length of neonatal hospital stay, delivery complications, mode of delivery, labor analgesia, illicit drug use, medication-assisted treatment dosage, gestational age at delivery, breastfeeding status, miscarriage, congenital anomalies, intrauterine fetal demise, birthweight, head circumference, length, and Apgar scores.\r\n\r\nOverall, 5 studies comprising 6 study groups met the inclusion criteria. Of the 1875 mother-baby dyads available for analysis, medications prescribed as part of the medication-assisted treatment included buprenorphine-naloxone, buprenorphine alone, methadone, or long-acting opioids. There were no serious adverse maternal or neonatal outcomes associated with maternal buprenorphine-naloxone use reported among any of the studies. Women prescribed with buprenorphine-naloxone for delivered neonates who were less likely to require treatment for neonatal abstinence syndrome were compared with pregnant women prescribed with other opioid agonist medications. Of the remaining outcomes assessed, metaanalysis did not detect any statistically significant differences when comparing the groups of women using buprenorphine-naloxone with the groups of women prescribed with other medications as part of the medication-assisted treatment.\r\n\r\nPregnant women undergoing treatment for opioid use disorder with buprenorphine-naloxone do not experience significantly different pregnancy outcomes than women undergoing treatment with other forms of opioid agonist medication-assisted therapy.",
+          "featuresTitle": "Buprenorphine is safe in pregnancy"
+        }
+      ],
+      "featureSectionHeading": "Spectrum Psychiatry",
+      "featureSectionTitle": "Lorem ipsum dolor",
+      "featureSectionImageUrl": {
+        "node": {
+          "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284484/spring-fed-images-CKYdtIyd_mw-unsplash-scaled_xoc7as.jpg"
+        }
+      }
+    },
+    "alternatingBlock": {
+      "__typename": "AlternatingBlock",
+      "alternatingBlockEnabledDisabled": [
+        "Enabled"
+      ],
+      "block": [
+        {
+          "alternatingBlockLayout": [
+            "Layout A"
+          ],
+          "alternatingBlockHeading": "Spectrum Psychiatry",
+          "alternatingBlockContent": [
+            {
+              "alternatingBlockContentTitle": "Why Suboxone?",
+              "alternatingBlockContentDescription": "Suboxone treatment combined with therapy allows for the best transition to recovery"
+            }
+          ],
+          "alternatingBlockButton": {
+            "alternatingBlockButtonName": "Learn More",
+            "alternatingBlockButtonLink": "/",
+            "alternatingBlockButtonEnabled": [
+              "Enabled"
+            ]
+          },
+          "alternatingBlockImage": {
+            "node": {
+              "description": null,
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284482/elias-maurer-gwr8hdzgncY-unsplash-scaled_y34b0d.jpg"
+            }
+          }
+        }
+      ]
+    },
+    "bannerCarouselBlock": {
+      "__typename": "BannerCarouselBlock",
+      "bannerCarouselBlockEnabledDisabled": [
+        "Disabled"
+      ],
+      "bannerCarouselBlockDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis nisl rhoncus mattis rhoncus urna neque.",
+      "bannerCarouselBlockTitle": "Check out our work",
+      "bannerCarouselBlockImagesCarousel": null
+    },
+    "references": {
+      "__typename": "References",
+      "enabledDisabled": [
+        "Enabled"
+      ],
+      "title": "References",
+      "heading": "References",
+      "description": null,
+      "referenceList": [
+        {
+          "reference": "1. Baxley C, Borsari B, Reavis JV, Manuel JK, Herbst E, Becker W, Pennington D, Batki SL, Seal K. Effects of buprenorphine on opioid craving in comparison to other medications for opioid use disorder: A systematic review of randomized controlled trials. Addict Behav. 2023 Apr;139:107589. doi: 10.1016/j.addbeh.2022.107589. Epub 2022 Dec 17. PMID: 36565531."
+        },
+        {
+          "reference": "2. Gowing L, Ali R, White JM, Mbewe D. Buprenorphine for managing opioid withdrawal. Cochrane Database Syst Rev. 2017 Feb 21;2(2):CD002025. doi: 10.1002/14651858.CD002025.pub5. PMID: 28220474; PMCID: PMC6464315."
+        },
+        {
+          "reference": "3. Link HM, Jones H, Miller L, Kaltenbach K, Seligman N. Buprenorphine-naloxone use in pregnancy: a systematic review and metaanalysis. Am J Obstet Gynecol MFM. 2020 Aug;2(3):100179. doi: 10.1016/j.ajogmf.2020.100179. Epub 2020 Jul 3. PMID: 33345863."
+        }
+      ]
+    }
+  },
+  "individualTherapy": {
+    "__typename": "Page",
+    "title": "Individual Therapy",
+    "servicesHero": {
+      "__typename": "ServicesHero",
+      "servicesHeroTitle": "Individual Therapy",
+      "servicesHeroDescription": null,
+      "servicesHeroBackgroudImage": {
+        "servicesHeroImageEnabledDisabled": [
+          "Enabled"
+        ],
+        "servicesHeroBackgroudImageUrl": {
+          "node": {
+            "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284493/alexey-fedenkov-MiRAlvRPUas-unsplash-scaled_zg2mlo.jpg"
+          }
+        }
+      },
+      "servicesHeroButton": {
+        "servicesHeroButtonName": null,
+        "servicesHeroButtonLink": null,
+        "servicesHeroButtonEnabled": [
+          "Disabled"
+        ]
+      }
+    },
+    "featureSection": {
+      "__typename": "FeatureSection",
+      "featureSectionEnabledDisabled": [
+        "Enabled"
+      ],
+      "featureSectionDescription": "Contact Us and conqueror your emotional and psychological problems",
+      "numberOfColumns": "2",
+      "featureSectionFeatures": [
+        {
+          "featuresDescription": "Individual therapy allows for in-depth exploration of personal issues, helping you gain insight into the root causes of challenges and develop coping strategies. Spectrum provide non-judgmental support, helping you navigate difficult emotions. ",
+          "featuresTitle": "Issues"
+        },
+        {
+          "featuresDescription": " encourages self-reflection and self-awareness, fostering a deeper understanding of yourself and your patterns of thinking.",
+          "featuresTitle": "Self Reflection"
+        },
+        {
+          "featuresDescription": " Learn practical strategies for managing stress and anxiety, improving overall well-being. Enhance your interpersonal skills, leading to better communication and improved relationships with others",
+          "featuresTitle": "Management"
+        }
+      ],
+      "featureSectionHeading": "Spectrum Psychiatry",
+      "featureSectionTitle": "Help Yourself Today",
+      "featureSectionImageUrl": {
+        "node": {
+          "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284493/eye-for-ebony-BKxipJKe3G0-unsplash-scaled_hgmbgd.jpg"
+        }
+      }
+    },
+    "alternatingBlock": {
+      "__typename": "AlternatingBlock",
+      "alternatingBlockEnabledDisabled": [
+        "Enabled"
+      ],
+      "block": [
+        {
+          "alternatingBlockLayout": [
+            "Layout A"
+          ],
+          "alternatingBlockHeading": "Spectrum Psychiatry",
+          "alternatingBlockContent": [
+            {
+              "alternatingBlockContentTitle": "Therapy can help",
+              "alternatingBlockContentDescription": "Many patients face challenges related to addiction and mental health. Whether you're suffering with cravings for substances like alcohol or substances, we are here to offer effective therapy tailored to your needs."
+            },
+            {
+              "alternatingBlockContentTitle": "Commitment",
+              "alternatingBlockContentDescription": "Therapy is not quick acting and will take time. Our team is dedicated to help you along the steps and create a safe environment for you to talk in. "
+            }
+          ],
+          "alternatingBlockButton": {
+            "alternatingBlockButtonName": "Learn More",
+            "alternatingBlockButtonLink": "/",
+            "alternatingBlockButtonEnabled": [
+              "Enabled"
+            ]
+          },
+          "alternatingBlockImage": {
+            "node": {
+              "description": null,
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284493/michael-humphries-sL1Mm7QSlGQ-unsplash-scaled_gvoqwu.jpg"
+            }
+          }
+        }
+      ]
+    },
+    "bannerCarouselBlock": {
+      "__typename": "BannerCarouselBlock",
+      "bannerCarouselBlockEnabledDisabled": [
+        "Disabled"
+      ],
+      "bannerCarouselBlockDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis nisl rhoncus mattis rhoncus urna neque.",
+      "bannerCarouselBlockTitle": "Check out our work",
+      "bannerCarouselBlockImagesCarousel": null
+    },
+    "references": {
+      "__typename": "References",
+      "enabledDisabled": [
+        "Disabled"
+      ],
+      "title": "References",
+      "heading": "References",
+      "description": null,
+      "referenceList": null
+    }
+  },
+  "ketamineTreatment": {
+    "__typename": "Page",
+    "title": "Ketamine Treatment",
+    "servicesHero": {
+      "__typename": "ServicesHero",
+      "servicesHeroTitle": "Ketamine Treatment",
+      "servicesHeroDescription": "Embarking on your Journey: Discovering the possibility of Ketamine Therapy ",
+      "servicesHeroBackgroudImage": {
+        "servicesHeroImageEnabledDisabled": [
+          "Disabled"
+        ],
+        "servicesHeroBackgroudImageUrl": {
+          "node": {
+            "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284483/sarah-doody-bxh4QPMsUqE-unsplash-scaled_qicn0h.jpg"
+          }
+        }
+      },
+      "servicesHeroButton": {
+        "servicesHeroButtonName": "Get Started",
+        "servicesHeroButtonLink": "/",
+        "servicesHeroButtonEnabled": [
+          "Enabled"
+        ]
+      }
+    },
+    "featureSection": {
+      "__typename": "FeatureSection",
+      "featureSectionEnabledDisabled": [
+        "Enabled"
+      ],
+      "featureSectionDescription": "Ketamine is not limited to individuals living with depression but the possibilities reach beyond.",
+      "numberOfColumns": "1",
+      "featureSectionFeatures": [
+        {
+          "featuresDescription": "Racemic ketamine and esketamine have demonstrated rapid antidepressant effects. In a meta-analysis(reference #1) where authors used pooled data from 36 studies (2903 participants, 57% female, 45.1 +/- 7.0 years), nine trials used esketamine, while the rest used racemic ketamine. The overall study quality was high. Treatment with any form of ketamine was associated with improved response (RR=2.14; 95% CI, 1.72-2.66; I2=65%), remission (RR=1.64; 95% CI, 1.33-2.02; I2=39%), and depression severity (d=-0.63; 95% CI, -0.80 to -0.45; I2=78%) against placebo. Overall, there was no association between treatment with any form of ketamine and retention in treatment (RR=1.00; 95% CI, 0.99-1.01; I2<1%).",
+          "featuresTitle": "Ketamine is effective, safe, and acceptable treatments for individuals living with depression."
+        },
+        {
+          "featuresDescription": "In a systematic review and meta-analysis(reference #2) study which aimed to assess the comparative efficacy and tolerability of racemic and esketamine for the treatment of unipolar and bipolar depression, authors compared response and remission from depression, change in depression severity, suicidality, retention in treatment. 24 trials representing 1877 participants were pooled. Racemic ketamine relative to esketamine demonstrated greater overall response (RR = 3.01 vs. RR = 1.38) and remission rates (RR = 3.70 vs. RR = 1.47), as well as lower dropouts (RR = 0.76 vs. RR = 1.37).",
+          "featuresTitle": "Racemic ketamine appears to be more efficacious than esketamine for the treatment of depression"
+        },
+        {
+          "featuresDescription": "Suicide is a public health crisis with limited treatment options. The authors conducted a systematic review and individual participant data meta-analysis examining the effects of a single dose of ketamine on suicidal ideation. Individual participant data were obtained from 10 of 11 identified comparison intervention studies that used either saline or midazolam as a control treatment. The analysis included only participants who had suicidal ideation at baseline (N=167). A one-stage, individual participant data, meta-analytic procedure was employed using a mixed-effects, multilevel, general linear model. The primary outcome measures were the suicide items from clinician-administered (the Montgomery-Åsberg Depression Rating Scale [MADRS] or the Hamilton Depression Rating Scale [HAM-D]) and self-report scales (the Quick Inventory of Depressive Symptomatology-Self Report [QIDS-SR] or the Beck Depression Inventory [BDI]), obtained for up to 1 week after ketamine administration.\r\n\r\nKetamine rapidly (within 1 day) reduced suicidal ideation significantly on both the clinician-administered and self-report outcome measures. Effect sizes were moderate to large (Cohen's d=0.48-0.85) at all time points after dosing. A sensitivity analysis demonstrated that compared with control treatments, ketamine had significant benefits on the individual suicide items of the MADRS, the HAM-D, and the QIDS-SR but not the BDI. Ketamine's effect on suicidal ideation remained significant after adjusting for concurrent changes in severity of depressive symptoms.\r\n\r\nKetamine rapidly reduced suicidal thoughts, within 1 day and for up to 1 week in depressed patients with suicidal ideation. Ketamine's effects on suicidal ideation were partially independent of its effects on mood, although subsequent trials in transdiagnostic samples are required to confirm that ketamine exerts a specific effect on suicidal ideation. ",
+          "featuresTitle": " Ketamine rapidly reduced suicidal thoughts, within 1 day and for up to 1 week in depressed patients with suicidal ideation."
+        },
+        {
+          "featuresDescription": "Authors studied(reference #4) the real-world effectiveness of repeated ketamine infusions for treatment-resistant bipolar depression. This study was conducted in a community clinic in Mississauga, Ontario (Canadian Rapid Treatment Centre of Excellence; Braxia Health). In this observational study (NCT04209296), patients with treatment-resistant bipolar I/II depression (n = 66) received four sub-anesthetic doses of IV ketamine (0.5-0.75 mg/kg) over a two-week period. Symptoms of depression, suicidality, anxiety, and functioning were assessed with validated self-report measures.\r\n\r\nStatistically and clinically significant antidepressant effects were observed in the overall sample, as measured by the Quick Inventory for Depression Symptomatology-Self Report-16 (QIDS-SR16 ) with further reductions in depressive symptoms observed after each subsequent infusion (n = 66; mean QIDS-SR16 reduction of 6.08+/-1.39; p < 0.0001). Significant reductions of suicidal thoughts (QIDS-SR16 -Suicide Item) and anxiety (Generalized Anxiety Disorder-7) were also observed with functional improvements on the Sheehan Disability Scale (p < 0.0001 on all measures). Moreover, the response rate (QIDS-SR16 total score decrease ≥50% from baseline) was 35% and remission rate (QIDS-SR16 total score ≤5) was 20% after four infusions. Infusions were generally well tolerated with treatment-emergent hypomania observed in only three patients (4.5%) with zero cases of mania or psychosis.\r\n\r\nReal-world effectiveness of ketamine for bipolar depression was observed. Repeated doses were associated with greater symptom reduction and adequate tolerability.",
+          "featuresTitle": "Ketamine is effective in treatment-resistant Bipolar Disorder"
+        },
+        {
+          "featuresDescription": "Posttraumatic stress disorder (PTSD) is a chronic and disabling disorder, for which available pharmacotherapies have limited efficacy. In a randomized controlled trial(Reference #6), researchers tested the efficacy and safety of repeated intravenous ketamine infusions for the treatment of chronic PTSD.\r\n\r\nIndividuals with chronic PTSD (N=30) were randomly assigned (1:1) to receive six infusions of ketamine (0.5 mg/kg) or midazolam (0.045 mg/kg) (psychoactive placebo control) over 2 consecutive weeks. Clinician-rated and self-report assessments were administered 24 hours after the first infusion and at weekly visits. The primary outcome measure was change in PTSD symptom severity, as assessed with the Clinician-Administered PTSD Scale for DSM-5 (CAPS-5), from baseline to 2 weeks (after completion of all infusions). Secondary outcome measures included the Impact of Event Scale-Revised, the Montgomery-Åsberg Depression Rating Scale (MADRS), and side effect measures.\r\n\r\nThe ketamine group showed a significantly greater improvement in CAPS-5 and MADRS total scores than the midazolam group from baseline to week 2. At week 2, the mean CAPS-5 total score was 11.88 points (SE=3.96) lower in the ketamine group than in the midazolam group (d=1.13, 95% CI=0.36, 1.91). Sixty-seven percent of participants in the ketamine group were treatment responders, compared with 20% in the midazolam group. Among ketamine responders, the median time to loss of response was 27.5 days following the 2-week course of infusions. Ketamine infusions were well tolerated overall, without serious adverse events.\r\n\r\nThis randomized controlled trial provides the first evidence of efficacy of repeated ketamine infusions in reducing symptom severity in individuals with chronic PTSD. ",
+          "featuresTitle": "Ketamine is effective for PTSD"
+        }
+      ],
+      "featureSectionHeading": "Spectrum Psychiatry",
+      "featureSectionTitle": "Benefits of Ketamine",
+      "featureSectionImageUrl": {
+        "node": {
+          "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284481/austin-park-1C-2TraF9MA-unsplash-scaled_p5cjs3.jpg"
+        }
+      }
+    },
+    "alternatingBlock": {
+      "__typename": "AlternatingBlock",
+      "alternatingBlockEnabledDisabled": [
+        "Enabled"
+      ],
+      "block": [
+        {
+          "alternatingBlockLayout": [
+            "Layout A"
+          ],
+          "alternatingBlockHeading": "Spectrum Psychiatry",
+          "alternatingBlockContent": [
+            {
+              "alternatingBlockContentTitle": "Why Ketamine? ",
+              "alternatingBlockContentDescription": "Ketamine is one of the most effective ways to treat TRD (treatment-resistant depression). Ketamine treatment also promotes the growth of synaptic connections and brain plasticity. "
+            },
+            {
+              "alternatingBlockContentTitle": "Why Ketamine?",
+              "alternatingBlockContentDescription": "Ketamine can also help with the activation of AMPA receptors which helps increase the synaptic activity. "
+            }
+          ],
+          "alternatingBlockButton": {
+            "alternatingBlockButtonName": "Learn More",
+            "alternatingBlockButtonLink": "/",
+            "alternatingBlockButtonEnabled": [
+              "Enabled"
+            ]
+          },
+          "alternatingBlockImage": {
+            "node": {
+              "description": null,
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284481/austin-park-1C-2TraF9MA-unsplash-scaled_p5cjs3.jpg"
+            }
+          }
+        }
+      ]
+    },
+    "bannerCarouselBlock": {
+      "__typename": "BannerCarouselBlock",
+      "bannerCarouselBlockEnabledDisabled": [
+        "Disabled"
+      ],
+      "bannerCarouselBlockDescription": "1. Bahji A, Zarate CA, Vazquez GH. Efficacy and safety of racemic ketamine and esketamine for depression: a systematic review and meta-analysis. Expert Opin Drug Saf. 2022 Jun;21(6):853-866. doi: 10.1080/14740338.2022.2047928. Epub 2022 Mar 9. PMID: 35231204; PMCID: PMC9949988. \r\nhttps://pubmed.ncbi.nlm.nih.gov/35231204/\r\n\r\n\r\n2. Bahji A, Vazquez GH, Zarate CA Jr. Comparative efficacy of racemic ketamine and esketamine for depression: A systematic review and meta-analysis. J Affect Disord. 2021 Jan 1;278:542-555. doi: 10.1016/j.jad.2020.09.071. Epub 2020 Sep 23. Erratum in: J Affect Disord. 2020 Nov 20;: PMID: 33022440; PMCID: PMC7704936.\r\n\r\nhttps://pubmed.ncbi.nlm.nih.gov/33022440/\r\n\r\n3. Wilkinson ST, Ballard ED, Bloch MH, Mathew SJ, Murrough JW, Feder A, Sos P, Wang G, Zarate CA Jr, Sanacora G. The Effect of a Single Dose of Intravenous Ketamine on Suicidal Ideation: A Systematic Review and Individual Participant Data Meta-Analysis. Am J Psychiatry. 2018 Feb 1;175(2):150-158. doi: 10.1176/appi.ajp.2017.17040472. Epub 2017 Oct 3. PMID: 28969441; PMCID: PMC5794524.\r\n\r\nhttps://pubmed.ncbi.nlm.nih.gov/28969441/\r\n\r\n\r\n4. Fancy F, Rodrigues NB, Di Vincenzo JD, Chau EH, Sethi R, Husain MI, Gill H, Tabassum A, Mckenzie A, Phan L, McIntyre RS, Rosenblat JD. Real-world effectiveness of repeated ketamine infusions for treatment-resistant bipolar depression. Bipolar Disord. 2023 Mar;25(2):99-109. doi: 10.1111/bdi.13284. Epub 2022 Dec 26. PMID: 36516343.\r\nhttps://pubmed.ncbi.nlm.nih.gov/36516343/\r\n\r\n5. Lu YY, Lin CH, Lane HY. Mania following ketamine abuse. Neuropsychiatr Dis Treat. 2016 Jan 27;12:237-9. doi: 10.2147/NDT.S97696. PMID: 26869791; PMCID: PMC4737325.\r\nhttps://pubmed.ncbi.nlm.nih.gov/26869791/\r\n\r\n6. Feder A, Costi S, Rutter SB, Collins AB, Govindarajulu U, Jha MK, Horn SR, Kautz M, Corniquel M, Collins KA, Bevilacqua L, Glasgow AM, Brallier J, Pietrzak RH, Murrough JW, Charney DS. A Randomized Controlled Trial of Repeated Ketamine Administration for Chronic Posttraumatic Stress Disorder. Am J Psychiatry. 2021 Feb 1;178(2):193-202. doi: 10.1176/appi.ajp.2020.20050596. Epub 2021 Jan 5. PMID: 33397139.\r\nhttps://pubmed.ncbi.nlm.nih.gov/33397139/\r\n",
+      "bannerCarouselBlockTitle": "References ",
+      "bannerCarouselBlockImagesCarousel": {
+        "edges": [
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284482/dangtimo-timo-hlwsXoyl8O0-unsplash-scaled_cnm3wt.jpg"
+            }
+          }
+        ]
+      }
+    },
+    "references": {
+      "__typename": "References",
+      "enabledDisabled": [
+        "Enabled"
+      ],
+      "title": "References",
+      "heading": "Our Sources",
+      "description": null,
+      "referenceList": [
+        {
+          "reference": "Bahji A, Zarate CA, Vazquez GH. Efficacy and safety of racemic ketamine and esketamine for depression: a systematic review and meta-analysis. Expert Opin Drug Saf. 2022 Jun;21(6):853-866. doi: 10.1080/14740338.2022.2047928. Epub 2022 Mar 9. PMID: 35231204; PMCID: PMC9949988. \r\nhttps://pubmed.ncbi.nlm.nih.gov/35231204/"
+        },
+        {
+          "reference": "Bahji A, Vazquez GH, Zarate CA Jr. Comparative efficacy of racemic ketamine and esketamine for depression: A systematic review and meta-analysis. J Affect Disord. 2021 Jan 1;278:542-555. doi: 10.1016/j.jad.2020.09.071. Epub 2020 Sep 23. Erratum in: J Affect Disord. 2020 Nov 20;: PMID: 33022440; PMCID: PMC7704936.\r\nhttps://pubmed.ncbi.nlm.nih.gov/33022440/"
+        },
+        {
+          "reference": "Wilkinson ST, Ballard ED, Bloch MH, Mathew SJ, Murrough JW, Feder A, Sos P, Wang G, Zarate CA Jr, Sanacora G. The Effect of a Single Dose of Intravenous Ketamine on Suicidal Ideation: A Systematic Review and Individual Participant Data Meta-Analysis. Am J Psychiatry. 2018 Feb 1;175(2):150-158. doi: 10.1176/appi.ajp.2017.17040472. Epub 2017 Oct 3. PMID: 28969441; PMCID: PMC5794524.\r\nhttps://pubmed.ncbi.nlm.nih.gov/28969441/"
+        },
+        {
+          "reference": "Fancy F, Rodrigues NB, Di Vincenzo JD, Chau EH, Sethi R, Husain MI, Gill H, Tabassum A, Mckenzie A, Phan L, McIntyre RS, Rosenblat JD. Real-world effectiveness of repeated ketamine infusions for treatment-resistant bipolar depression. Bipolar Disord. 2023 Mar;25(2):99-109. doi: 10.1111/bdi.13284. Epub 2022 Dec 26. PMID: 36516343.\r\nhttps://pubmed.ncbi.nlm.nih.gov/36516343/"
+        },
+        {
+          "reference": "Lu YY, Lin CH, Lane HY. Mania following ketamine abuse. Neuropsychiatr Dis Treat. 2016 Jan 27;12:237-9. doi: 10.2147/NDT.S97696. PMID: 26869791; PMCID: PMC4737325.\r\nhttps://pubmed.ncbi.nlm.nih.gov/26869791/"
+        },
+        {
+          "reference": "Feder A, Costi S, Rutter SB, Collins AB, Govindarajulu U, Jha MK, Horn SR, Kautz M, Corniquel M, Collins KA, Bevilacqua L, Glasgow AM, Brallier J, Pietrzak RH, Murrough JW, Charney DS. A Randomized Controlled Trial of Repeated Ketamine Administration for Chronic Posttraumatic Stress Disorder. Am J Psychiatry. 2021 Feb 1;178(2):193-202. doi: 10.1176/appi.ajp.2020.20050596. Epub 2021 Jan 5. PMID: 33397139.\r\nhttps://pubmed.ncbi.nlm.nih.gov/33397139/"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "__typename": "Page",
+    "title": "Contact",
+    "hero": {
+      "__typename": "Hero",
+      "heroTitle": "Spectrum Psychiatry",
+      "heroDescription": null,
+      "heroBackgroudImageUrl": {
+        "heroImageEnabledDisabled": [
+          "Enabled"
+        ],
+        "heroBackgroudImageUrl": {
+          "node": {
+            "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284495/edu-lauton-TyQ-0lPp6e4-unsplash_jczf4f.jpg"
+          }
+        }
+      }
+    }
+  },
+  "contactInformation": {
+    "contactInfoHeading": "Find Us Here",
+    "contactInfoAddress": "15615 Alton Pkwy Ste 220 Irvine, CA 92618",
+    "contactInfoPhone": "+1 (949) 665-9136",
+    "contactInfoEmail": "info@spectrumpsychiatry.us",
+    "contactInfoMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26568.914263988816!2d-117.7527472814149!3d33.65420057601067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdd57c815c0a9%3A0xbd7436c85d56ff02!2sIrvine%20Spectrum%20Center%2C%20Irvine%2C%20CA%2092618!5e0!3m2!1sen!2sus!4v1706062972209!5m2!1sen!2sus"
+  },
+  "nextJsSiteSettings": {
+    "header": {
+      "lightModeLogo": {
+        "image": {
+          "node": {
+            "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284482/logo_veosy5.png"
+          }
+        },
+        "logoSettings": {
+          "altText": "Spectrum Psychiatry",
+          "link": "/",
+          "height": "45",
+          "width": "143"
+        }
+      },
+      "darkModeLogo": {
+        "image": {
+          "node": {
+            "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284482/logo_veosy5.png"
+          }
+        },
+        "logoSettings": {
+          "altText": "Spectrum Psychiatry",
+          "link": "/",
+          "height": "45",
+          "width": "143"
+        }
+      }
+    },
+    "footer": {
+      "linkList": [
+        {
+          "links": {
+            "title": "Policy",
+            "link": "https://docs.google.com/document/d/1sWSzIaXpYht4_5Gd_HGLffua6L0Ts0UJ/edit?usp=sharing&ouid=100247517890546419725&rtpof=true&sd=true"
+          }
+        },
+        {
+          "links": {
+            "title": "SMS Policy",
+            "link": "https://docs.google.com/document/d/1CjrMJeK-YeBYhDgTbI8ll1jZOo-q7cM1/edit?usp=sharing&ouid=100247517890546419725&rtpof=true&sd=true"
+          }
+        }
+      ]
+    }
+  }
+}

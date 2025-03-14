@@ -1,0 +1,11 @@
+overwrite: true
+schema: https://spectrumpsychiatry-wp.com/graphql
+documents: "./src/framework/basic-rest/**/*.graphql"
+generates:
+    ./src/framework/basic-rest/generated/graphql.ts:
+        plugins:
+            - typescript
+            - typescript-operations
+            - typescript-react-query
+        config:
+            fetcher: graphql-request

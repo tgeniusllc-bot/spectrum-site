@@ -1,0 +1,22 @@
+{
+    "forms": {
+        "ContactForm": {
+            "name": "ContactForm",
+            "actions": [{"type": "email", "to": "demo@formspree.io"}],
+            "fields": {
+                "Name": {
+                    "required": true
+                },
+                "Email": {
+                    "required": true
+                },
+                "Subject": {
+                    "required": true
+                },
+                "Message": {
+                    "required": true
+                } 
+            }
+        } 
+    }
+} 

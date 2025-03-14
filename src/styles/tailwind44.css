@@ -1,0 +1,598 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.custom-container {
+  @apply xl:max-w-full xl:px-[70px] px-[15px];
+}  
+ 
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(100vh);
+}
+
+.image-gallery-icon {
+  color: #fff;
+  transition: none;
+   appearance: none;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  z-index: 4;
+
+  @apply hover:text-primary transition-ease-effect
+  
+}
+.bg-image-cover {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+
+  /* @media (max-width: @iphone-screen) {
+      background-attachment: scroll;
+  } */
+}
+.image-gallery-icon .image-gallery-svg {
+  transform: scale(1.1);
+}
+
+.icon {
+  @apply w-[65px];
+}
+
+.custom-img {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.unset-img {
+  width: 100%;
+}
+.unset-img > div {
+  position: unset !important;
+}
+
+
+/*----------------------------------------*/
+/*  - header
+/*----------------------------------------*/
+.main-menu {
+  @apply flex justify-start uppercase leading-8 text-[14px];
+}
+.main-menu li a {
+  @apply block pr-[45px] ;
+}
+.main-menu div a span {
+  @apply relative block before:absolute before:left-0 before:bottom-0 before:right-0 before:h-[1px] before:opacity-0 before:bg-white before:transform before:scale-x-[0.2] before:transition before:duration-500 hover:before:opacity-100 hover:before:scale-x-100 ;
+} 
+.main-menu div.active a span {
+  @apply before:opacity-100 before:scale-x-100;
+}
+.main-menu .navigation > li > ul {
+  padding: 20px 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.main-menu-effect {
+  @apply relative block before:absolute before:left-0 before:bottom-0 before:right-0 before:h-[1px] before:opacity-0 before:bg-black before:transform before:scale-x-[0.2] before:transition before:duration-500 hover:before:opacity-100 hover:before:scale-x-100;
+}
+.main-menu-effect-white {
+  @apply relative block before:absolute before:left-0 before:bottom-0 before:right-0 before:h-[1px] before:opacity-0 before:bg-white before:transform before:scale-x-[0.2] before:transition before:duration-500 hover:before:opacity-100 hover:before:scale-x-100;
+}
+
+active {
+  @apply before:opacity-100 before:scale-x-100;
+}
+
+.transition-ease-effect {
+  @apply transition duration-300 ease-in-out;
+}
+
+.main-logo {
+  display: block;
+}
+.sticky-logo {
+  display: none;
+}
+
+.sticky-style-2 .main-menu div a span {
+  @apply before:bg-black ;
+}
+.is-sticky {
+  @apply fixed transition duration-500 top-0 left-0 w-full z-20;
+}
+
+.is-sticky .sticky-style-2  .main-logo {
+  display: none;
+}
+.is-sticky .sticky-style-2 .sticky-logo {
+  display: block;
+}
+.is-sticky .sticky-style-1  .main-logo {
+  display: none;
+}
+.is-sticky .sticky-style-1 .sticky-logo {
+  display: block;
+}
+.is-sticky.sticky-style-2 {
+  @apply bg-white transition-ease-effect;
+}
+
+
+
+.is-sticky .grid {
+  @apply leading-[100px];
+}
+.is-sticky .main-menu div a span {
+  @apply before:bottom-auto before:top-0;
+}
+.is-sticky.sticky-style-1 {
+  @apply bg-gray-500 dark:bg-zinc-800/60 backdrop-filter backdrop-blur-lg bg-opacity-30;
+}
+.is-sticky .sticky-style-1-panel {
+  @apply bg-primary text-black opacity-100 transition-ease-effect backdrop-filter backdrop-blur-lg bg-opacity-60;
+}
+.is-sticky .sticky-style-1-panel a {
+  @apply hover:bg-gray-500/60 ;
+}
+.is-sticky .sticky-style-1-panel a icon {
+  @apply text-black;
+}
+.is-sticky .sticky-style-1-panel a p {
+  @apply text-black;
+}
+
+.is-sticky .panel-icon {
+  @apply text-black;
+}
+
+.sticky-style-2 {
+  @apply bg-white border-[#dfdfdf] border-b;
+}
+
+.language-list {
+  @apply flex justify-end items-center uppercase leading-8 text-[14px];
+}
+.language-list li {
+  @apply pr-[45px];
+}
+
+.offcanvas-menu-wrap {
+  @apply before:fixed before:w-0 before:h-full before:top-0 before:right-0 before:bg-black before:z-30 before:opacity-90 before:ease-linear before:duration-[500ms] delay-[300ms];
+}
+.offcanvas-menu-wrap.active {
+  @apply before:w-full before:visible before:opacity-90;
+}
+.offcanvas-menu-wrap .offcanvas-menu {
+  @apply opacity-90 bg-white fixed top-0 right-[-300px] w-[300px] h-full ease-in-out duration-[450ms] delay-[350ms] p-5 z-40;
+}
+.offcanvas-menu-wrap.active .offcanvas-menu {
+  @apply right-0 opacity-100;
+}
+.offcanvas-text {
+  @apply pt-[15px] pb-[15px] border-t last:border-b text-[15px] leading-6 uppercase font-semibold;
+}
+.offcanvas-text-hover {
+  @apply hover:text-white transition duration-300 ease-in-out;
+}
+
+.navSearchResults {
+@apply absolute hidden border-t-4 border p-6 w-full right-0 top-full border-primary mt-3 bg-white  transform translate-x-full ease-in-out;
+}
+
+.navSearchResults { @media (min-width: 480px) {
+  width: 30em;
+  margin-right: 0;
+}
+}
+.navSearchResults[data-search-is-active*="true"]   {
+  @apply block  transform translate-x-0
+}
+
+.navSearchResults  p {
+  @apply leading-tight m-0 overflow-hidden break-all 
+}
+
+.navSearchResults  ul {
+  list-style: none;
+  padding: 0;
+  margin: -0.5em 0;
+}
+
+.navSearchResults a {
+  @apply block text-black hover:text-primary p-2 -mr-4 transition-ease-effect ;
+}
+
+/* Write your own custom base styles here */
+@layer base {
+  :root {
+    --shiki-color-text: theme('colors.white');
+    --shiki-token-constant: theme('colors.emerald.300');
+    --shiki-token-string: theme('colors.emerald.300');
+    --shiki-token-comment: theme('colors.zinc.500');
+    --shiki-token-keyword: theme('colors.sky.300');
+    --shiki-token-parameter: theme('colors.pink.300');
+    --shiki-token-function: theme('colors.violet.300');
+    --shiki-token-string-expression: theme('colors.emerald.300');
+    --shiki-token-punctuation: theme('colors.zinc.200');
+  }
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  html,
+  body {
+    @apply antialiased text-body font-body;
+   } 
+  p {
+    @apply mb-5;
+  }
+  p:last-of-type {
+    @apply mb-0;
+  }
+  p > a {
+    @apply transition text-body;
+  }
+  p > a:hover {
+    @apply text-heading;
+  }
+  [inert] ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer components {
+  .transition-ease-effect {
+    @apply transition duration-300 ease-in-out;
+  }
+  .theme-container {
+    @apply bg-white antialiased dark:bg-zinc-900 transition-ease-effect
+  }
+  .theme-container-text {
+    @apply theme-text-heading
+  }
+  .menuIcon {
+    width: 26px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    @apply space-y-1.5;
+  }
+  .bar {
+    width: 100%;
+    height: 2px;
+    transition: all 0.25s ease-in-out;
+    @apply flex bg-theme rounded-2xl;
+  }
+  .bar:first-child {
+    width: 50%;
+  }
+  .bar:last-child {
+    width: 75%;
+  }
+  .menuBtn:hover .bar:first-child,
+  .menuBtn:hover .bar:last-child {
+    @apply w-full;
+  }
+  .menuBtn:hover .bar:nth-child(2) {
+    width: 60%;
+  }
+
+  /* Header Menu */
+  #siteHeader.is-scrolling .innerSticky {
+    @apply  backdrop-filter backdrop-blur-lg bg-opacity-60;
+  }
+  .headerMenu .menuItem > a::before {
+    @apply absolute w-0 end-0 bg-theme -bottom-7;
+    content: '';
+    height: 3px;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .megaMenu,
+  .subMenu {
+    transition: all 0.4s;
+    top: calc(100% + 25px);
+  }
+  .megaMenu {
+    width: 970px;
+    @apply opacity-0;
+  }
+  @media (min-width: 1280px) {
+    .megaMenu {
+      width: 1070px;
+    }
+  }
+  @media (min-width: 1500px) {
+    .megaMenu {
+      width: 1200px;
+    }
+  }
+  .megaMenu ul > li:last-of-type {
+    @apply pb-0 mb-0 border-0;
+  }
+  .subMenu {
+    width: 220px;
+  }
+  @media (min-width: 1280px) {
+    .subMenu {
+      width: 240px;
+    }
+  }
+  .subMenuChild {
+    transition: all 0.3s;
+  }
+  .subMenu li:hover > .subMenuChild {
+    @apply visible opacity-100 -top-3;
+  }
+  .subMenu > ul > li:hover {
+    @apply hover:text-heading hover:bg-gray-300;
+  }
+  .megaMenu .subMenuGrid > li:last-of-type {
+    @apply pb-0 mb-0 border-b-0;
+  }
+
+  .headerMenu .menuItem:hover > a::before {
+    @apply w-full end-auto start-0;
+  }
+  .headerMenu .menuItem > .megaMenu {
+    @apply invisible;
+  }
+  .headerMenu .menuItem:hover > .megaMenu,
+  .headerMenu .menuItem:hover > .subMenu {
+    @apply visible opacity-100 top-full;
+  }
+  /* Category Menu & Header Three */
+  .categoryMegaMenu {
+    @apply invisible opacity-0 top-6;
+    transition: all 0.4s;
+  }
+  .categoryMegaMenu .megaMenu {
+    @apply relative top-0 opacity-100 w-[630px] 2xl:w-[720px] !start-0;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.08);
+  }
+  .categoryMegaMenu .megaMenu > .grid {
+    @apply grid-cols-3;
+  }
+  .categoryMegaMenu .megaMenu > .grid > ul {
+    @apply bg-white odd:bg-gray-150;
+  }
+  .subMenu li:hover > .categoryMegaMenu {
+    @apply top-0 visible opacity-100;
+  }
+  .categoryMenu > .subMenu > ul {
+    @apply py-6;
+  }
+  .categoryMenu > .subMenu > ul > li > a {
+    @apply py-2.5;
+  }
+  .categoryMenu:hover > .subMenu {
+    @apply visible opacity-100;
+    top: calc(100% + 10px) !important;
+  }
+  .headerThree .headerMenu .menuItem > .megaMenu {
+    @apply -start-32 xl:start-0;
+  }
+  .headerThree .headerMenu > .menuItem {
+    @apply py-3;
+  }
+  .headerThree .headerMenu .menuItem > a::before {
+    @apply -bottom-3;
+  }
+
+  /* Mobile Drawer Menu */
+  .mobileMenu .menu-item.active {
+    @apply font-semibold text-black;
+  }
+  .mobileMenu .menu-item.active::before {
+    content: '';
+    width: 3px;
+    @apply absolute top-0 bottom-0 flex h-full bg-heading start-0;
+  }
+  .mobileMenu li li {
+    @apply text-sm text-body;
+  }
+  .mobileMenu li li div > a {
+    @apply relative py-2.5 text-body;
+  }
+  .mobileMenu li > ul > li > div > a:before {
+    content: '';
+    height: 1px;
+    @apply flex absolute bg-body top-1/2 start-1.5 md:start-3 w-1.5 md:w-2;
+  }
+
+  /* Hero Banner */
+  @media (min-width: 1500px) {
+    .heroBannerOne > div {
+      margin-left: -500px;
+      margin-right: -500px;
+    }
+  }
+  @media (min-width: 1780px) {
+    .heroBannerOne > div {
+      margin-left: -750px;
+      margin-right: -750px;
+    }
+  }
+  @media (min-width: 1850px) {
+    .heroBannerOne > div {
+      margin-left: -850px;
+      margin-right: -850px;
+    }
+  }
+
+  /* Exclusive Year Section css */
+  .exclusiveYear {
+    opacity: 0.02;
+    font-size: 8rem;
+  }
+  @media (min-width: 1280px) {
+    .exclusiveYear {
+      font-size: 160px;
+    }
+  }
+  @media (min-width: 1500px) {
+    .exclusiveYear {
+      font-size: 200px;
+    }
+  }
+  @media (min-width: 1780px) {
+    .exclusiveYear {
+      font-size: 240px;
+    }
+  }
+
+  @media (min-width: 667px) {
+    .exclusiveImage {
+      min-width: 280px;
+      min-height: 300px;
+    }
+  }
+
+  /* Your own custom utilities */
+  .productColor.active {
+    @apply border-heading;
+  }
+  .productSize.active {
+    @apply text-white border-heading bg-heading;
+  }
+  .productTags a:last-of-type > span {
+    display: none;
+  }
+  /* For login and signup switch */
+  .switch {
+    height: 22px;
+  }
+  .slider:before {
+    position: absolute;
+    content: '';
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+
+  input:checked + .slider {
+    background-color: #212121;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+  }
+
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 20px;
+  }
+
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #707070;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #707070;
+  }
+  input::placeholder {
+    color: #707070;
+  }
+
+  .popupClosed {
+    @apply -top-3.5 md:-top-4 -end-3.5 md:-end-4;
+  }
+  .h-screen-40 {
+    height: calc(100vh - 40px);
+  }
+  .modal-root .os-content {
+    @apply flex items-center justify-center lg:block;
+  }
+
+  .cart-counter-badge {
+    min-width: 20px;
+    min-height: 20px;
+    padding: 2px;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+
+  @media (max-wdith: 1279px) {
+    .cart-counter-badge {
+      min-width: 16px;
+      min-height: 16px;
+    }
+  }
+  .carouselWrapper.testimonial-carousel .swiper-horizontal > .swiper-scrollbar {
+    @apply md:start-7;
+  }
+  .carouselWrapper .product-gallery + div {
+    @apply hidden;
+  }
+  .carouselWrapper.pagination-left .swiper-pagination-bullets {
+    @apply start-6 sm:start-9 md:start-11 lg:start-14 xl:start-20 2xl:start-24 3xl:start-28;
+  }
+  .hero-slider-pagination-area
+    .carouselWrapper.pagination-left
+    .swiper-pagination-bullets {
+    @apply start-6 sm:start-9 md:start-11 lg:start-14 xl:start-20 2xl:start-20;
+  }
+  .carouselWrapper.carousel-full-width.pagination-left
+    .swiper-pagination-bullets {
+    @apply start-5 sm:start-9 md:start-11 lg:start-14 xl:start-20 2xl:start-24 3xl:start-48;
+  }
+
+  /* Tab Section */
+  .tab-ul {
+    @apply mb-[30px] h-16 flex flex-nowrap overflow-x-scroll overflow-y-hidden no-scrollbar text-sm font-medium text-center text-gray-600  relative before:absolute before:border-b-[5px] before:w-[200%] before:border-[#D9D9D9] before:rounded-md before:bottom-0 before:start-1 whitespace-nowrap;
+  }
+  .tab-li-selected {
+    @apply me-8 inline-flex h-16 px-1 py-4 rounded-t-lg border-transparent text-sm sm:text-base font-semibold text-gray-700 active relative before:absolute before:w-full before:h-[5px] before:rounded-md before:bg-gray-600 before:bottom-0;
+  }
+  .tab-li {
+    @apply me-8 inline-flex h-16 px-1 py-4 rounded-t-lg hover:text-gray-700 text-sm sm:text-base font-normal cursor-pointer;
+  }
+}
+
+/* Breadcrumb truncate last child */
+.chawkbazarBreadcrumb li:last-child {
+  @apply truncate;
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    /* width: 0px;
+    height: 0px;
+    background: transparent; */
+    width: 0;
+    height: 0;
+    display: none;
+    -webkit-appearance: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    scrollbar-color: transparent transparent;
+  }
+
+  .no-scrollbar::-webkit-scrollbar-thumb:horizontal,
+  .no-scrollbar::-webkit-scrollbar-thumb:vertical {
+    background: transparent;
+    display: none;
+  }
+}
