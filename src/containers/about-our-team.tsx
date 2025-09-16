@@ -58,7 +58,7 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
     return (
         <>
             {aboutOurTeamEnabledDisabled[0] === "Enabled" ? (
-                <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+                <div className="mx-auto my-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0">
                         <h2 className="text-3xl font-bold tracking-tight theme-text-heading sm:text-4xl">
                             {aboutOurTeamTitle}

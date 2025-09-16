@@ -400,43 +400,156 @@
             }
           ]
         },
-        "aboutJoinOurTeam": {
-          "joinOurTeamEnabledDisabled": [
-            "Enabled"
-          ],
-          "joinOurTeamImage": {
-            "node": {
-              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284484/IMG_2322-scaled_ejkpqh.jpg"
+        "aboutJoinOurTeamMembers": [
+          {
+            "joinOurTeamEnabledDisabled": [
+              "Enabled"
+            ],
+            "joinOurTeamImage": {
+              "node": {
+                "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284490/drteginpicture_bvilec.jpg"
+              }
+            },
+            "joinOurTeamTitle": "Dr. Cuneyt Tegin, MD",
+            "joinOurTeamDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "joinOurTeamList": [
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              }
+            ],
+            "joinOurTeamButton": {
+              "joinOurTeamButtonEnabledDisabled": [
+                "Disabled"
+              ],
+              "joinOurTeamButtonTitle": "See our Articles",
+              "joinOurTeamButtonLink": "https://news.harvard.edu/gazette/story/2023/05/ketamine-found-effective-in-treatment-resistant-depression/"
             }
           },
-          "joinOurTeamTitle": "Dr. Gulay Tegin",
-          "joinOurTeamDescription": "I received my medical degree in Turkey. After graduating from medical school, I completed two years of mandatory service as a general practitioner in an underserved area near the Syrian border during the beginning of Syrian Civil War. While working there, I noticed that people mostly seek help for their physical illnesses and wounds. But some injuries/sufferings are not seen and yet pain the most. I realized that invisible wounds are the hardest to heal. It requires love, patience, understanding, and emotional support for their closure. I came to the USA to gain a deep understanding on the biology of brain and mental illnesses.\r\n\r\nI worked at the Mood Disorder Research Laboratory for 3 years. I did some clinical work and volunteering at the Survivors of Torture Recovery Center which is founded by the U.S. Department of Health and Human Services (DHHS). Then, I completed my adult psychiatry residency training at the University of Louisville.\r\n\r\nI have treated a diverse population of patients with many different diagnoses. I utilize the bio-psycho-social approach and provide medication management with psychotherapy to address mental health issues. I am dedicated to providing a holistic, emphatic and patient-centered approach.",
-          "joinOurTeamList": [
-            {
-              "joinOurTeamListIcon": null,
-              "joinOurTeamTitle": null
-            },
-            {
-              "joinOurTeamListIcon": null,
-              "joinOurTeamTitle": null
-            },
-            {
-              "joinOurTeamListIcon": null,
-              "joinOurTeamTitle": null
-            },
-            {
-              "joinOurTeamListIcon": null,
-              "joinOurTeamTitle": null
-            }
-          ],
-          "joinOurTeamButton": {
-            "joinOurTeamButtonEnabledDisabled": [
-              "Disabled"
+          {
+            "joinOurTeamEnabledDisabled": [
+              "Enabled"
             ],
-            "joinOurTeamButtonTitle": "See our Articles",
-            "joinOurTeamButtonLink": "https://news.harvard.edu/gazette/story/2023/05/ketamine-found-effective-in-treatment-resistant-depression/"
+            "joinOurTeamImage": {
+              "node": {
+                "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284484/IMG_2322-scaled_ejkpqh.jpg"
+              }
+            },
+            "joinOurTeamTitle": "Dr. Gulay Tegin, MD",
+            "joinOurTeamDescription": "I received my medical degree in Turkey. After graduating from medical school, I completed two years of mandatory service as a general practitioner in an underserved area near the Syrian border during the beginning of Syrian Civil War. While working there, I noticed that people mostly seek help for their physical illnesses and wounds. But some injuries/sufferings are not seen and yet pain the most. I realized that invisible wounds are the hardest to heal. It requires love, patience, understanding, and emotional support for their closure. I came to the USA to gain a deep understanding on the biology of brain and mental illnesses.\r\n\r\nI worked at the Mood Disorder Research Laboratory for 3 years. I did some clinical work and volunteering at the Survivors of Torture Recovery Center which is founded by the U.S. Department of Health and Human Services (DHHS). Then, I completed my adult psychiatry residency training at the University of Louisville.\r\n\r\nI have treated a diverse population of patients with many different diagnoses. I utilize the bio-psycho-social approach and provide medication management with psychotherapy to address mental health issues. I am dedicated to providing a holistic, emphatic and patient-centered approach.",
+            "joinOurTeamList": [
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              }
+            ],
+            "joinOurTeamButton": {
+              "joinOurTeamButtonEnabledDisabled": [
+                "Disabled"
+              ],
+              "joinOurTeamButtonTitle": "See our Articles",
+              "joinOurTeamButtonLink": "https://news.harvard.edu/gazette/story/2023/05/ketamine-found-effective-in-treatment-resistant-depression/"
+            }
+          },
+          {
+            "joinOurTeamEnabledDisabled": [
+              "Enabled"
+            ],
+            "joinOurTeamImage": {
+              "node": {
+                "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284292/image_2024-11-15_142247615_f5syki.png"
+              }
+            },
+            "joinOurTeamTitle": "Dr. Ismail Deniz, MD",
+            "joinOurTeamDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "joinOurTeamList": [
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              }
+            ],
+            "joinOurTeamButton": {
+              "joinOurTeamButtonEnabledDisabled": [
+                "Disabled"
+              ],
+              "joinOurTeamButtonTitle": "See our Articles",
+              "joinOurTeamButtonLink": "https://news.harvard.edu/gazette/story/2023/05/ketamine-found-effective-in-treatment-resistant-depression/"
+            }
+          },
+          {
+            "joinOurTeamEnabledDisabled": [
+              "Enabled"
+            ],
+            "joinOurTeamImage": {
+              "node": {
+                "sourceUrl": "https://res.cloudinary.com/dlwejeeke/image/upload/v1757989251/Spectrum/unnamed_zgjd9u.jpg"
+              }
+            },
+            "joinOurTeamTitle": "Team Member 4",
+            "joinOurTeamDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "joinOurTeamList": [
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              }
+            ],
+            "joinOurTeamButton": {
+              "joinOurTeamButtonEnabledDisabled": [
+                "Disabled"
+              ],
+              "joinOurTeamButtonTitle": "See our Articles",
+              "joinOurTeamButtonLink": "https://news.harvard.edu/gazette/story/2023/05/ketamine-found-effective-in-treatment-resistant-depression/"
+            }
           }
-        }
+        ]
       }
     }
   },

@@ -1,23 +1,20 @@
-import { CheckCircleIcon } from "@heroicons/react/20/solid";
-
 interface Props {
-    query: any;
+    teamMemberData: any;
 }
 
-const AboutJoinOurTeam: React.FC<Props> = ({ query }) => {
+const AboutJoinOurTeam: React.FC<Props> = ({ teamMemberData }) => {
     const {
         joinOurTeamImage,
         joinOurTeamTitle,
         joinOurTeamDescription,
-        joinOurTeamList,
         joinOurTeamButton,
         joinOurTeamEnabledDisabled,
-    } = query.nodeByUri.acfAboutPage.aboutPageBlocks.aboutJoinOurTeam;
+    } = teamMemberData;
     return (
         <>
             {joinOurTeamEnabledDisabled[0] === "Enabled" ? (
                 <main className="relative isolate sm:mb-36">
-                    <div className="relative isolate -z-10 mt-32 sm:mt-40">
+                    <div className="relative isolate -z-10 sm:mt-40">
                         <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
                             <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
                                 <img

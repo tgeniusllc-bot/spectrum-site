@@ -21,14 +21,19 @@ export default function Home({ data, siteSettings }: AboutPageProps) {
         return <Loader />;
     }
 
+    const teamMembers =
+        data.acfAboutPage.aboutPageBlocks.aboutJoinOurTeamMembers || [];
+
     return (
         <Layout siteSettings={siteSettings}>
             <AboutHero query={{ nodeByUri: data }} />
             <AboutStats query={{ nodeByUri: data }} />
             <AboutImageSection query={{ nodeByUri: data }} />
             <AboutValues query={{ nodeByUri: data }} />
+            {teamMembers.map((teamMember: any, index: number) => (
+                <AboutJoinOurTeam key={index} teamMemberData={teamMember} />
+            ))}
             <AboutOurTeam query={{ nodeByUri: data }} />
-            <AboutJoinOurTeam query={{ nodeByUri: data }} />
             <Divider className="mb-0" />
         </Layout>
     );
