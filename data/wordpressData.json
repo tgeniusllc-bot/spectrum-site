@@ -269,7 +269,7 @@
       "aboutPageBlocks": {
         "aboutHero": {
           "aboutHeroHeading": "Spectrum Psychiatry",
-          "aboutHeroDescription": "Learn more about Dr. Cuneyt Tegin and Dr. Gulay Tegin",
+          "aboutHeroDescription": "Learn more about our team",
           "aboutHeroContentSection": [
             {
               "aboutHeroContentSectionDescription": "Dr. Cuneyt Tegin, is a distinguished psychiatrist, practices at Spectrum Psychiatry in Irvine, CA. He completed his residency in psychiatry at the University of Louisville. He then completed a fellowship at Harvard University."
@@ -290,7 +290,7 @@
         },
         "aboutStatsSection": {
           "aboutStatsEnabledDisabled": [
-            "Enabled"
+            "Disabled"
           ],
           "aboutStats": [
             {
