@@ -28,10 +28,16 @@ export default function Home({ data, siteSettings }: AboutPageProps) {
         <Layout siteSettings={siteSettings}>
             <AboutHero query={{ nodeByUri: data }} />
             <AboutStats query={{ nodeByUri: data }} />
-            <AboutImageSection query={{ nodeByUri: data }} />
+            {/* <AboutImageSection query={{ nodeByUri: data }} /> */}
+            {/* Render first team member */}
+            {teamMembers.length > 0 && (
+                <AboutJoinOurTeam key={0} teamMemberData={teamMembers[0]} />
+            )}
+            {/* Render AboutValues after first team member */}
             <AboutValues query={{ nodeByUri: data }} />
-            {teamMembers.map((teamMember: any, index: number) => (
-                <AboutJoinOurTeam key={index} teamMemberData={teamMember} />
+            {/* Render remaining team members */}
+            {teamMembers.slice(1).map((teamMember: any, index: number) => (
+                <AboutJoinOurTeam key={index + 1} teamMemberData={teamMember} />
             ))}
             <AboutOurTeam query={{ nodeByUri: data }} />
             <Divider className="mb-0" />

@@ -6,7 +6,7 @@ const AboutHero: React.FC<Props> = ({ query }) => {
         query.nodeByUri.acfAboutPage.aboutPageBlocks.aboutHero;
     console.log(query);
     return (
-        <main className="relative isolate bg-theme">
+        <main className="relative isolate bg-theme h-screen">
             {/* Background */}
             <div
                 className="absolute inset-x-0 top-28 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
@@ -22,25 +22,14 @@ const AboutHero: React.FC<Props> = ({ query }) => {
             </div>
 
             {/* Header section */}
-            <div className="px-6 pt-14 lg:px-8">
-                <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-40">
+            <div className="px-6 lg:px-8 h-full flex items-center justify-center">
+                <div className="mx-auto max-w-2xl text-center">
                     <h2 className="text-4xl font-bold tracking-tight theme-text-heading sm:text-6xl">
                         {aboutHeroHeading}
                     </h2>
                     <p className="mt-6 text-lg leading-8 theme-text-description">
                         {aboutHeroDescription}
                     </p>
-                </div>
-            </div>
-
-            {/* Content section */}
-            <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-                    <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 theme-text-description lg:max-w-none lg:grid-cols-2">
-                        {aboutHeroContentSection?.map((item: any, i: any) => (
-                            <p>{item.aboutHeroContentSectionDescription}</p>
-                        ))}
-                    </div>
                 </div>
             </div>
         </main>

@@ -397,6 +397,16 @@
               "teamMemberName": "Dr. Ismail Deniz, MD",
               "teamMemberRole": "Child, Adult, and Addiction Psychiatrist",
               "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+            },
+            {
+              "teamMemberImage": {
+                "node": {
+                  "sourceUrl": "https://res.cloudinary.com/dlwejeeke/image/upload/v1757989251/Spectrum/unnamed_zgjd9u.jpg"
+                }
+              },
+              "teamMemberName": "May Faustino",
+              "teamMemberRole": "Psychiatric Mental Health Nurse Practitioner",
+              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
             }
           ]
         },
