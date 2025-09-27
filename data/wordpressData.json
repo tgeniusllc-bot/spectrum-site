@@ -593,16 +593,16 @@
       "featureSectionEnabledDisabled": [
         "Enabled"
       ],
-      "featureSectionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "featureSectionDescription": "Medication management is more than just prescribing — it’s an ongoing partnership. Our clinicians carefully evaluate your symptoms, medical history, and treatment goals to determine if medication may be beneficial. We then monitor your progress, adjust as needed, and ensure you feel supported at every step.",
       "numberOfColumns": "2",
       "featureSectionFeatures": [
         {
-          "featuresDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis nisl rhoncus mattis rhoncus urna neque.",
-          "featuresTitle": "Lorem ipsum"
+          "featuresDescription": "interesting",
+          "featuresTitle": "Title"
         }
       ],
       "featureSectionHeading": "Spectrum Psychiatry",
-      "featureSectionTitle": "Lorem ipsum dolor",
+      "featureSectionTitle": "What is Medication Management?",
       "featureSectionImageUrl": {
         "node": {
           "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284484/axville-HDJ-bbtF3Qc-unsplash-scaled_cr4j7d.jpg"
