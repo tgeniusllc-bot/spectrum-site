@@ -717,7 +717,7 @@
       "featureSectionEnabledDisabled": [
         "Enabled"
       ],
-      "featureSectionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "featureSectionDescription": "Suboxone is a medication approved by the FDA to treat opioid use disorder. It contains buprenorphine and naloxone, working together to reduce cravings and withdrawal symptoms while lowering the risk of misuse. Suboxone helps stabilize brain chemistry, making it easier for individuals to focus on healing and building a healthier future.",
       "numberOfColumns": "1",
       "featureSectionFeatures": [
         {
@@ -734,7 +734,7 @@
         }
       ],
       "featureSectionHeading": "Spectrum Psychiatry",
-      "featureSectionTitle": "Lorem ipsum dolor",
+      "featureSectionTitle": "What is Suboxone?",
       "featureSectionImageUrl": {
         "node": {
           "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284484/spring-fed-images-CKYdtIyd_mw-unsplash-scaled_xoc7as.jpg"
