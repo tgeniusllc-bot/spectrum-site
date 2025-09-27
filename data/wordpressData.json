@@ -593,16 +593,16 @@
       "featureSectionEnabledDisabled": [
         "Enabled"
       ],
-      "featureSectionDescription": "Medication management is more than just prescribing — it’s an ongoing partnership. Our clinicians carefully evaluate your symptoms, medical history, and treatment goals to determine if medication may be beneficial. We then monitor your progress, adjust as needed, and ensure you feel supported at every step.",
+      "featureSectionDescription": "Comprehensive psychiatric evaluations to guide treatment decisions\r\nPersonalized medication plans tailored to your unique needs\r\nRegular follow-ups to track effectiveness and manage side effects\r\nCollaborative care that integrates therapy, lifestyle support, and other treatments when appropriate",
       "numberOfColumns": "2",
       "featureSectionFeatures": [
         {
-          "featuresDescription": "interesting",
+          "featuresDescription": "We believe that medication can be a powerful tool in recovery when used thoughtfully and in collaboration with the patient. Our goal is to help you feel better, function more fully, and move toward a healthier, more fulfilling life.",
           "featuresTitle": "Title"
         }
       ],
       "featureSectionHeading": "Spectrum Psychiatry",
-      "featureSectionTitle": "What is Medication Management?",
+      "featureSectionTitle": "Our Approach",
       "featureSectionImageUrl": {
         "node": {
           "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284484/axville-HDJ-bbtF3Qc-unsplash-scaled_cr4j7d.jpg"
@@ -647,8 +647,8 @@
           "alternatingBlockHeading": "Spectrum Psychiatry",
           "alternatingBlockContent": [
             {
-              "alternatingBlockContentTitle": "Lorem ipsum dolor",
-              "alternatingBlockContentDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+              "alternatingBlockContentTitle": "What is Medication Management?",
+              "alternatingBlockContentDescription": "Medication management is more than just prescribing — it’s an ongoing partnership. Our clinicians carefully evaluate your symptoms, medical history, and treatment goals to determine if medication may be beneficial. We then monitor your progress, adjust as needed, and ensure you feel supported at every step."
             }
           ],
           "alternatingBlockButton": {
