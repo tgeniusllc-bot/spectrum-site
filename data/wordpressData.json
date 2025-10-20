@@ -408,6 +408,17 @@
               "teamMemberRole": "Psychiatric Mental Health Nurse Practitioner",
               "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
             }
+          ],
+            {
+              "teamMemberImage": {
+                "node": {
+                  "sourceUrl": "https://res.cloudinary.com/dcnxahe1e/image/upload/v1760983469/dr1image_pdip5x.jpg"
+                }
+              },
+              "teamMemberName": "Dr. Hatice Guncu Kurt, MD",
+              "teamMemberRole": "Psychiatrist",
+              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+            }
           ]
         },
         "aboutJoinOurTeamMembers": [
