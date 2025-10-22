@@ -59,7 +59,7 @@ export default function ServicesGridStyleThree({ data }: any) {
     return (
         <>
             {servicesGridCardEnabledDisabled[0] === "Enabled" ? (
-                <div className="mx-auto mt-32 mb-10 sm:my-32 max-w-8xl px-6 sm:mt-56 lg:px-8">
+                <div className="mx-auto  mb-10 sm:my-32 max-w-8xl px-6  lg:px-8">
                     <div className="mx-auto max-w-2xl text-center">
                         <h2 className="text-base font-semibold leading-7 theme-text-accent">
                             {gridTitleSection.gridCardSectionTitle}

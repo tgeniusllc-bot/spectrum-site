@@ -17,6 +17,7 @@ import ServicesGridSection from "@containers/services-grid-section";
 import ContactForm from "@components/common/form/contact-form";
 import Loader from "@components/ui/loader/loader";
 import CTAWithTiles from "@components/common/cta-section-with-tiles";
+import AffiliateSection from "@containers/affiliate-section";
 
 interface HomePageProps {
     data: any; // Home Page Data
@@ -32,12 +33,14 @@ export default function Home({
     if (!data) {
         return <Loader />;
     }
+    console.log(data);
 
     return (
         <Layout siteSettings={siteSettings}>
             <HeroSectionOne query={{ nodeByUri: data }} />
             <AlternatingFeatureSections query={{ nodeByUri: data }} />
             <FeatureSectionOne query={{ nodeByUri: data }} />
+            <AffiliateSection query={{ nodeByUri: data }} />
             <ServicesGridSection query={{ nodeByUri: data }} />
             <ThreeImageDetailsSection query={{ nodeByUri: data }} />
             <CTAWithTiles query={{ nodeByUri: data }} />

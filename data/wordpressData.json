@@ -260,7 +260,29 @@
           }
         ]
       }
-    }
+    },
+    "affiliateSection": {
+          "affiliateSectionTitle": "Affiliates",
+          "affiliateSectionEnabledDisabled": [
+            "Enabled"
+          ],
+          "affiliateSectionImages": [
+            {
+              "affiliateSectionImage": {
+                "node": {
+                  "sourceUrl": "https://res.cloudinary.com/dlwejeeke/image/upload/v1761152853/Spectrum/Yale_University-Logo.wine_jqogdc.svg"
+                }
+              }
+            },
+            {
+              "affiliateSectionImage": {
+                "node": {
+                  "sourceUrl": "https://res.cloudinary.com/dlwejeeke/image/upload/v1761153580/Spectrum/USC_Trojans_logo.svg_ljiafj.png"
+                }
+              }
+            }
+          ]
+        }
   },
   "about": {
     "__typename": "Page",
