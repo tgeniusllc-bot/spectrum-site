@@ -418,6 +418,26 @@
               "teamMemberRole": "Psychiatrist",
               "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
             }
+            {
+              "teamMemberImage": {
+                "node": {
+                  "sourceUrl": "https://res.cloudinary.com/dcnxahe1e/image/upload/v1761101404/dr2_iwabsa.jpg"
+                }
+              },
+              "teamMemberName": "Dr. Gayane Nurijanyan, PsyD",
+              "teamMemberRole": "Clinical Psychiatrist",
+              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+            },
+            {
+              "teamMemberImage": {
+                "node": {
+                  "sourceUrl": "https://res.cloudinary.com/dcnxahe1e/image/upload/v1761101412/dr3_jd0xbm.jpg"
+                }
+              },
+              "teamMemberName": "Jessica Peraza, LCSW",
+              "teamMemberRole": "Licensed Clinical Social Worker",
+              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+            }
           ]
         },
         "aboutJoinOurTeamMembers": [
