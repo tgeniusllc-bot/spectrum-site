@@ -1,4 +1,0 @@
-# Pin Node to 20 LTS so @netlify/plugin-nextjs and sharp build correctly
-# (Node 22 + node-gyp in the plugin causes "Cannot assign to read only property 'cflags'" errors)
-[build.environment]
-  NODE_VERSION = "20"
