@@ -161,6 +161,10 @@ export default function MobileMenu({ siteSettings }: MobileMenuProps) {
                         </ul>
                     </div>
                 </Scrollbar>
+
+                <div className="flex-shrink-0 flex justify-center items-center py-6 border-t border-theme">
+                    <ThemeToggle />
+                </div>
             </div>
         </>
     );

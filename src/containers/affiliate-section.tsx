@@ -13,7 +13,7 @@ const AffiliateSection: React.FC<Props> = ({ query }) => {
     return (
         <>
             {affiliateSectionEnabledDisabled[0] === "Enabled" ? (
-                <div className="py-24  isolate  overflow-hidden">
+                <div className="py-24 isolate relative overflow-hidden">
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
                         <h2 className="text-center text-3xl font-semibold text-heading">
                             {affiliateSectionTitle}{" "}

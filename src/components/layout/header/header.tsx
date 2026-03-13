@@ -6,6 +6,7 @@ import { addActiveScroll } from "@utils/add-active-scroll";
 import DarkLogo from "./dark-logo";
 import LightLogo from "./logo";
 import ThemeToggle from "@components/ui/dark-mode/toggle-theme";
+import ZocdocBookButton from "@components/ui/zocdoc-book-button";
 import { ThemeContext } from "@contexts/theme-context";
 
 type DivElementRef = React.MutableRefObject<HTMLDivElement>;
@@ -53,7 +54,10 @@ const Header: React.FC<HeaderProps> = ({ siteSettings }) => {
                     <div className="flex-shrink-0 ms-auto lg:me-5 xl:me-8 2xl:me-10">
                         <div className="lg:flex lg:flex-1 lg:justify-end">
                             <div className="flex items-center justify-center gap-x-6">
-                                <ThemeToggle />
+                                <span className="hidden lg:inline-flex">
+                                    <ThemeToggle />
+                                </span>
+                                <ZocdocBookButton />
                             </div>
                         </div>
                     </div>

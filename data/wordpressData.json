@@ -721,6 +721,43 @@
               "joinOurTeamButtonTitle": "See our Articles",
               "joinOurTeamButtonLink": "https://news.harvard.edu/gazette/story/2023/05/ketamine-found-effective-in-treatment-resistant-depression/"
             }
+          },
+          {
+            "joinOurTeamEnabledDisabled": [
+              "Enabled"
+            ],
+            "joinOurTeamImage": {
+              "node": {
+                "sourceUrl": "https://res.cloudinary.com/dlwejeeke/image/upload/v1773441652/Spectrum/unnamed_bm8xwe.jpg"
+              }
+            },
+            "joinOurTeamTitle": "Debra Sweeney, PMHNP",
+            "joinOurTeamDescription": "Debra E. Sweeney is a board-certified Psychiatric Mental Health Nurse Practitioner dedicated to providing compassionate, patient-centered mental health care. She earned her Bachelor of Science degree in Nursing from Ohio University with honors in 2019 and her Master of Science degree in Nursing with honors in 2025, specializing as a Psychiatric-Mental Health Nurse Practitioner. With over eight years of diverse clinical experience, including Medical-Surgical/Telemetry, Acute Psychiatric, Forensic Psychiatric, Geriatric Psychiatric, and Correctional Health Nursing, Debra is committed to delivering holistic, culturally competent care that respects each individual's unique background and values. She views mental health treatment as a collaborative partnership, emphasizing the patient's voice and choice to foster trust and empowerment. Her practice integrates medication management and evidence-based psychotherapies, such as Cognitive Behavioral Therapy (CBT) and Psychodynamic Therapy, to help clients increase self-awareness, develop healthy coping skills, and enhance relationships. Debra aims to create a safe and therapeutic environment where hope and resilience can flourish. Beyond clinical care, she advocates for mental health awareness, strives to reduce stigma, and works to improve access to quality mental health services within her community. Passionate about making a positive impact, Debra is dedicated to promoting mental well-being through education, advocacy, and compassionate, individualized care.",
+            "joinOurTeamList": [
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              },
+              {
+                "joinOurTeamListIcon": null,
+                "joinOurTeamTitle": null
+              }
+            ],
+            "joinOurTeamButton": {
+              "joinOurTeamButtonEnabledDisabled": [
+                "Disabled"
+              ],
+              "joinOurTeamButtonTitle": "See our Articles",
+              "joinOurTeamButtonLink": "https://news.harvard.edu/gazette/story/2023/05/ketamine-found-effective-in-treatment-resistant-depression/"
+            }
           }
         ]
       }
