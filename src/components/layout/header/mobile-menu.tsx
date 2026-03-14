@@ -43,9 +43,18 @@ export default function MobileMenu({ siteSettings }: MobileMenuProps) {
         setActiveMenus(newActiveMenus);
     };
 
-    // Extract header menu from siteSettings
-    const lightModeLogo = siteSettings?.header?.lightModeLogo;
-    const darkModeLogo = siteSettings?.header?.darkModeLogo;
+    // Use logo from site settings as primary source (/assets/images/logo.png)
+    const navLogo = {
+        image: { node: { sourceUrl: siteSettingsData.logo.url } },
+        logoSettings: {
+            link: siteSettingsData.logo.href,
+            altText: siteSettingsData.logo.alt,
+            width: siteSettingsData.logo.width,
+            height: siteSettingsData.logo.height,
+        },
+    };
+    const lightModeLogo = navLogo;
+    const darkModeLogo = navLogo;
 
     const ListMenu = ({
         dept,

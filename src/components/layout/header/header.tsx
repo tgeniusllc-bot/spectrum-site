@@ -13,8 +13,8 @@ type DivElementRef = React.MutableRefObject<HTMLDivElement>;
 
 const { site_header } = defaultSiteSettings;
 
-/** Build logo shape expected by logo components when WordPress header data is missing */
-function getFallbackLogo() {
+/** Logo shape from site settings (primary source: /assets/images/logo.png) */
+function getNavLogo() {
 	const logo = defaultSiteSettings.logo;
 	return {
 		image: { node: { sourceUrl: logo.url } },
@@ -42,9 +42,9 @@ const Header: React.FC<HeaderProps> = ({ siteSettings }) => {
         return openSidebar();
     }
 
-    // Extract logo settings from siteSettings, fallback to static logo when missing
-    const lightModeLogo = siteSettings?.header?.lightModeLogo ?? getFallbackLogo();
-    const darkModeLogo = siteSettings?.header?.darkModeLogo ?? getFallbackLogo();
+    // Use logo from site settings as primary source (/assets/images/logo.png)
+    const lightModeLogo = getNavLogo();
+    const darkModeLogo = getNavLogo();
 
     return (
         <header
