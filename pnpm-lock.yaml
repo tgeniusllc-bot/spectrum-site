@@ -107,9 +107,6 @@ importers:
       react-content-loader:
         specifier: ^6.2.0
         version: 6.2.1(react@18.2.0)
-      react-cool-onclickoutside:
-        specifier: ^1.7.0
-        version: 1.7.0(react@18.2.0)
       react-countdown:
         specifier: ^2.3.3
         version: 2.3.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -131,12 +128,6 @@ importers:
       react-query:
         specifier: ^3.39.3
         version: 3.39.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react-scroll:
-        specifier: ^1.8.9
-        version: 1.9.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react-sticky-box:
-        specifier: ^1.0.2
-        version: 1.0.2(react@18.2.0)
       react-tabs:
         specifier: ^5.1.0
         version: 5.2.0(react@18.2.0)
@@ -155,9 +146,6 @@ importers:
       tiny-invariant:
         specifier: ^1.3.1
         version: 1.3.3
-      use-places-autocomplete:
-        specifier: ^4.0.0
-        version: 4.0.1(react@18.2.0)
     devDependencies:
       '@types/body-scroll-lock':
         specifier: ^3.1.0
@@ -177,9 +165,6 @@ importers:
       '@types/react':
         specifier: 18.0.25
         version: 18.0.25
-      '@types/react-scroll':
-        specifier: ^1.8.4
-        version: 1.8.10
       '@types/react-tabs':
         specifier: ^5.0.5
         version: 5.0.5(react@18.2.0)
@@ -870,24 +855,28 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   '@next/swc-linux-arm64-musl@12.3.1':
     resolution: {integrity: sha512-2WEasRxJzgAmP43glFNhADpe8zB7kJofhEAVNbDJZANp+H4+wq+/cW1CdDi8DqjkShPEA6/ejJw+xnEyDID2jg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   '@next/swc-linux-x64-gnu@12.3.1':
     resolution: {integrity: sha512-JWEaMyvNrXuM3dyy9Pp5cFPuSSvG82+yABqsWugjWlvfmnlnx9HOQZY23bFq3cNghy5V/t0iPb6cffzRWylgsA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@next/swc-linux-x64-musl@12.3.1':
     resolution: {integrity: sha512-xoEWQQ71waWc4BZcOjmatuvPUXKTv6MbIFzpm4LFeCHsg2iwai0ILmNXf81rJR+L1Wb9ifEke2sQpZSPNz1Iyg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@next/swc-win32-arm64-msvc@12.3.1':
     resolution: {integrity: sha512-hswVFYQYIeGHE2JYaBVtvqmBQ1CppplQbZJS/JgrVI3x2CurNhEkmds/yqvDONfwfbttTtH4+q9Dzf/WVl3Opw==}
@@ -1098,9 +1087,6 @@ packages:
 
   '@types/prop-types@15.7.14':
     resolution: {integrity: sha512-gNMvNH49DJ7OJYv+KAKn0Xp45p8PLl6zo2YnvDIbTd4J6MER2BmWN49TG7n9LvkyihINxeKW8+3bfS2yDC9dzQ==}
-
-  '@types/react-scroll@1.8.10':
-    resolution: {integrity: sha512-RD4Z7grbdNGOKwKnUBKar6zNxqaW3n8m9QSrfvljW+gmkj1GArb8AFBomVr6xMOgHPD3v1uV3BrIf01py57daQ==}
 
   '@types/react-tabs@5.0.5':
     resolution: {integrity: sha512-3CZTmjR7nNrZnYbnxp/DtK5e82mhM22dN47aYObmYLcp9fC1XjIEF0mLzGKFl1fR6/R8X7DyGh9hO6lON6LVkQ==}
@@ -2384,9 +2370,6 @@ packages:
   lodash.sortby@4.7.0:
     resolution: {integrity: sha512-HDWXG8isMntAyRF5vZ7xKuEvOhT4AhlRt/3czTSjvGUxjYCBVRQY48ViDHyfYz9VIoBkW4TMGQNapx+l3RUwdA==}
 
-  lodash.throttle@4.1.1:
-    resolution: {integrity: sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ==}
-
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
 
@@ -2984,11 +2967,6 @@ packages:
     peerDependencies:
       react: '>=16.0.0'
 
-  react-cool-onclickoutside@1.7.0:
-    resolution: {integrity: sha512-HVZK2155Unee+enpoHKyYP2UdQK69thw90XAOUCjvJBcgRSgfRPgWWt/W1dYzoGp3+nleAa8SJxF1d4FMA4Qmw==}
-    peerDependencies:
-      react: '>= 16.8.0'
-
   react-countdown@2.3.6:
     resolution: {integrity: sha512-ZfX6S08Hb6x6W6eCn1hMDvxPICI/T30fd+gaeVTCR/2cGZ2WJ3f26e4ImNIMX1fHkopJrUdnRpWXP13/D39+gg==}
     peerDependencies:
@@ -3054,17 +3032,6 @@ packages:
         optional: true
       react-native:
         optional: true
-
-  react-scroll@1.9.3:
-    resolution: {integrity: sha512-xv7FXqF3k63aSLNu4/NjFvRNI0ge7DmmmsbeGarP7LZVAlJMSjUuW3dTtLxp1Afijyv0lS2qwC0GiFHvx1KBHQ==}
-    peerDependencies:
-      react: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-
-  react-sticky-box@1.0.2:
-    resolution: {integrity: sha512-Kyvtppdtv1KqJyNU4DtrSMI0unyQRgtraZvVQ0GAazVbYiTsIVpyhpr+5R0Aavzu4uJNSe1awj2rk/qI7i6Zfw==}
-    peerDependencies:
-      react: '>=16.8.0'
 
   react-tabs@5.2.0:
     resolution: {integrity: sha512-F/mf56bKOySTESKNEJVcc/KrJioA+nXIc2r8AiBU9ty08AI5ZmX3Qs67D29nq6OV04SqvB7kRumTzUspfoZ4+w==}
@@ -3666,11 +3633,6 @@ packages:
 
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
-
-  use-places-autocomplete@4.0.1:
-    resolution: {integrity: sha512-AybOR/qzXcdaMCGSFveycfL3kztwseAOdagbYoJD8c3amll+gEiPmUkSNhYNUEBqbR+JmJG6/oBTRgihNbE+1A==}
-    peerDependencies:
-      react: '>= 16.8.0'
 
   use-sync-external-store@1.2.0:
     resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
@@ -4915,10 +4877,6 @@ snapshots:
   '@types/overlayscrollbars@1.12.5': {}
 
   '@types/prop-types@15.7.14': {}
-
-  '@types/react-scroll@1.8.10':
-    dependencies:
-      '@types/react': 18.0.25
 
   '@types/react-tabs@5.0.5(react@18.2.0)':
     dependencies:
@@ -6299,8 +6257,6 @@ snapshots:
 
   lodash.sortby@4.7.0: {}
 
-  lodash.throttle@4.1.1: {}
-
   lodash@4.17.21: {}
 
   log-symbols@3.0.0:
@@ -6895,10 +6851,6 @@ snapshots:
     dependencies:
       react: 18.2.0
 
-  react-cool-onclickoutside@1.7.0(react@18.2.0):
-    dependencies:
-      react: 18.2.0
-
   react-countdown@2.3.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       prop-types: 15.8.1
@@ -6953,18 +6905,6 @@ snapshots:
       react: 18.2.0
     optionalDependencies:
       react-dom: 18.2.0(react@18.2.0)
-
-  react-scroll@1.9.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
-    dependencies:
-      lodash.throttle: 4.1.1
-      prop-types: 15.8.1
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-
-  react-sticky-box@1.0.2(react@18.2.0):
-    dependencies:
-      react: 18.2.0
-      resize-observer-polyfill: 1.5.1
 
   react-tabs@5.2.0(react@18.2.0):
     dependencies:
@@ -7689,10 +7629,6 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  use-places-autocomplete@4.0.1(react@18.2.0):
-    dependencies:
-      react: 18.2.0
-
   use-sync-external-store@1.2.0(react@18.2.0):
     dependencies:
       react: 18.2.0
@@ -7822,7 +7758,7 @@ snapshots:
 
   wide-align@1.1.5:
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
 
   workbox-background-sync@6.6.0:
     dependencies:
