@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { siteSettings } from "@settings/site-settings";
+import { siteSettings as defaultSiteSettings } from "@settings/site-settings";
 import HeaderMenu from "@components/layout/header/header-menu";
 import { useUI } from "@contexts/ui.context";
 import { addActiveScroll } from "@utils/add-active-scroll";
@@ -11,7 +11,21 @@ import { ThemeContext } from "@contexts/theme-context";
 
 type DivElementRef = React.MutableRefObject<HTMLDivElement>;
 
-const { site_header } = siteSettings;
+const { site_header } = defaultSiteSettings;
+
+/** Build logo shape expected by logo components when WordPress header data is missing */
+function getFallbackLogo() {
+	const logo = defaultSiteSettings.logo;
+	return {
+		image: { node: { sourceUrl: logo.url } },
+		logoSettings: {
+			link: logo.href,
+			altText: logo.alt,
+			width: logo.width,
+			height: logo.height,
+		},
+	};
+}
 
 interface HeaderProps {
     siteSettings?: any; // Site settings passed from Layout
@@ -28,9 +42,9 @@ const Header: React.FC<HeaderProps> = ({ siteSettings }) => {
         return openSidebar();
     }
 
-    // Extract logo settings from siteSettings
-    const lightModeLogo = siteSettings?.header?.lightModeLogo;
-    const darkModeLogo = siteSettings?.header?.darkModeLogo;
+    // Extract logo settings from siteSettings, fallback to static logo when missing
+    const lightModeLogo = siteSettings?.header?.lightModeLogo ?? getFallbackLogo();
+    const darkModeLogo = siteSettings?.header?.darkModeLogo ?? getFallbackLogo();
 
     return (
         <header

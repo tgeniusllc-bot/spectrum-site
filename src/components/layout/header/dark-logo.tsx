@@ -6,17 +6,20 @@ interface Props {
     darkModeLogo: any;
 }
 
-const LightLogo: React.FC<Props> = ({ darkModeLogo }) => {
+const DarkLogo: React.FC<Props> = ({ darkModeLogo }) => {
+    if (!darkModeLogo?.image?.node?.sourceUrl) return null;
+    const src = darkModeLogo.image.node.sourceUrl;
+    const link = darkModeLogo.logoSettings?.link ?? "/";
+    const alt = darkModeLogo.logoSettings?.altText ?? "Logo";
+    const width = Number(darkModeLogo.logoSettings?.width) || 143;
+    const height = Number(darkModeLogo.logoSettings?.height) || 45;
     return (
-        <Link
-            href={darkModeLogo.logoSettings.link}
-            className={cn("inline-flex focus:outline-none")}
-        >
+        <Link href={link} className={cn("inline-flex focus:outline-none")}>
             <Image
-                src={darkModeLogo.image.node.sourceUrl}
-                alt={darkModeLogo.logoSettings.altText}
-                height={darkModeLogo.logoSettings.height}
-                width={darkModeLogo.logoSettings.width}
+                src={src}
+                alt={alt}
+                height={height}
+                width={width}
                 layout="fixed"
                 loading="eager"
             />
@@ -24,4 +27,4 @@ const LightLogo: React.FC<Props> = ({ darkModeLogo }) => {
     );
 };
 
-export default LightLogo;
+export default DarkLogo;

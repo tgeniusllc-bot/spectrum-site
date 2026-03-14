@@ -8,7 +8,7 @@ export const siteSettings = {
         address: "",
     },
     logo: {
-        url: "/assets/images/logo_big2.png",
+        url: "/assets/images/logo.png",
         alt: "Spectrum Psychiatry",
         href: "/",
         width: 142,

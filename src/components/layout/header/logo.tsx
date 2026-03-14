@@ -7,16 +7,22 @@ interface Props {
 }
 
 const LightLogo: React.FC<Props> = ({ lightModeLogo }) => {
+    if (!lightModeLogo?.image?.node?.sourceUrl) return null;
+    const src = lightModeLogo.image.node.sourceUrl;
+    const link = lightModeLogo.logoSettings?.link ?? "/";
+    const alt = lightModeLogo.logoSettings?.altText ?? "Logo";
+    const width = Number(lightModeLogo.logoSettings?.width) || 143;
+    const height = Number(lightModeLogo.logoSettings?.height) || 45;
     return (
         <Link
-            href={lightModeLogo.logoSettings.link}
+            href={link}
             className={cn("inline-flex focus:outline-none")}
         >
             <Image
-                src={lightModeLogo.image.node.sourceUrl}
-                alt={lightModeLogo.logoSettings.altText}
-                height={lightModeLogo.logoSettings.height}
-                width={lightModeLogo.logoSettings.width}
+                src={src}
+                alt={alt}
+                height={height}
+                width={width}
                 layout="fixed"
                 loading="eager"
             />
