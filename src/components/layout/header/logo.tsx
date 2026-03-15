@@ -25,6 +25,7 @@ const LightLogo: React.FC<Props> = ({ lightModeLogo }) => {
                 width={width}
                 layout="fixed"
                 loading="eager"
+                unoptimized={src.startsWith("/")}
             />
         </Link>
     );

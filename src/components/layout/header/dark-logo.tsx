@@ -22,6 +22,7 @@ const DarkLogo: React.FC<Props> = ({ darkModeLogo }) => {
                 width={width}
                 layout="fixed"
                 loading="eager"
+                unoptimized={src.startsWith("/")}
             />
         </Link>
     );
