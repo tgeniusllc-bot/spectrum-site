@@ -1,8 +1,4 @@
-import Container from "@components/ui/container";
-import { siteSettings } from "@settings/site-settings";
-import { useTranslation } from "next-i18next";
 import { AiOutlineArrowUp } from "react-icons/ai";
-import cn from "classnames";
 import Link from "@components/ui/link";
 
 interface CopyrightProps {
@@ -16,46 +12,30 @@ interface CopyrightProps {
     }[];
     variant?: "contemporary";
 }
+
 const year = new Date().getFullYear();
-const Copyright: React.FC<CopyrightProps> = ({ payment, variant }) => {
-    const { t } = useTranslation("footer");
+
+const Copyright: React.FC<CopyrightProps> = ({ variant }) => {
     return (
-        <div className="  transition-ease-effect  ">
-            <Container
-                className={cn(
-                    "flex flex-col-reverse md:flex-row text-center md:justify-between",
-                    {
-                        "items-center": variant === "contemporary",
-                    }
-                )}
-            >
-                <p
-                    className={cn(
-                        "theme-text-description text-xs lg:text-sm leading-6",
-                        {
-                            "p-0 m-0": variant === "contemporary",
-                        }
-                    )}
-                >
-                    &copy; {year}&nbsp;
-                    <a
-                        className="font-semibold theme-text-heading hover:text-spectrumBlue dark:hover:text-spectrumOrange"
-                        href={siteSettings.author.websiteUrl}
-                    >
-                        {siteSettings.author.name}
-                        {"."}
-                    </a>
-                    &nbsp;{t("text-all-rights-reserved")}
+        <div className="w-full border-t border-gray-200 py-5">
+            <div className="mx-auto flex w-full max-w-[1200px] items-center justify-center px-4">
+                <p className="text-center text-xs lg:text-sm leading-6 theme-text-description">
+                    &copy; {year}{" "}
+                    <span className="font-semibold">Spectrum Psychiatry.</span>{" "}
+                    All rights reserved
+                    <br />
+                    <span className="text-[12px] opacity-70">
+                        Powered by Keremiyo
+                    </span>
                 </p>
 
                 {variant === "contemporary" && (
-                    <p className="text-sm font-semibold leading-[19px] text-[#212121] cursor-pointer">
+                    <p className="ml-6 text-sm font-semibold text-[#212121] cursor-pointer">
                         <Link href="#siteHeader">Scroll to top</Link>
-
                         <AiOutlineArrowUp className="inline ms-3" />
                     </p>
                 )}
-            </Container>
+            </div>
         </div>
     );
 };

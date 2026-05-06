@@ -12,9 +12,10 @@ interface MenuProps {
 
 const HeaderMenu: React.FC<MenuProps> = ({ data, className }) => {
     const { t } = useTranslation("menu");
+
     return (
         <nav
-            className={classNames(`headerMenu flex w-full relative`, className)}
+            className={classNames("headerMenu flex w-full relative", className)}
         >
             {data?.map((item: any) => (
                 <div
@@ -25,11 +26,11 @@ const HeaderMenu: React.FC<MenuProps> = ({ data, className }) => {
                 >
                     <Link
                         href={item.path}
-                        className="relative inline-flex items-center px-3 py-2 text-sm font-normal xl:text-base xl:px-4 theme-navbar-text "
+                        className="relative inline-flex items-center px-3 py-2 text-sm font-semibold xl:text-base xl:px-4 text-zinc-900 hover:text-black transition-colors"
                     >
                         {t(item.label)}
                         {(item?.columns || item.subMenu) && (
-                            <span className="opacity-30 text-xs mt-1 xl:mt-0.5 w-4 flex justify-end">
+                            <span className="opacity-60 text-xs mt-1 xl:mt-0.5 w-4 flex justify-end text-zinc-900">
                                 <FaChevronDown className="transition duration-300 ease-in-out transform group-hover:-rotate-180" />
                             </span>
                         )}
@@ -40,8 +41,8 @@ const HeaderMenu: React.FC<MenuProps> = ({ data, className }) => {
                     )}
 
                     {item?.subMenu && Array.isArray(item.subMenu) && (
-                        <div className="absolute invisible bg-theme bg-opacity-70 opacity-0 group-hover:visible subMenu shadow-header start-0 group-hover:opacity-100 ">
-                            <ul className="py-5 text-sm theme-navbar-text ">
+                        <div className="absolute invisible bg-theme bg-opacity-70 opacity-0 group-hover:visible subMenu shadow-header start-0 group-hover:opacity-100">
+                            <ul className="py-5 text-sm text-zinc-900">
                                 {item.subMenu.map(
                                     (menu: any, index: number) => {
                                         const dept: number = 1;
