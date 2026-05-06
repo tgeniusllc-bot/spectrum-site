@@ -12,7 +12,7 @@
         ],
         "homeHeroBackgroudImageUrl": {
           "node": {
-            "sourceUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1600&auto=format&fit=crop"
+            "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284490/reba-spike-oJpnd4RxI0k-unsplash-scaled_yyvtdi.jpg"
           }
         }
       },
@@ -1120,8 +1120,8 @@
     "title": "Ketamine Treatment",
     "servicesHero": {
       "__typename": "ServicesHero",
-      "servicesHeroTitle": "Ketamine Treatment in Irvine, CA for Depression & PTSD | Spectrum Psychiatry",
-      "servicesHeroDescription": "Ketamine treatment in Irvine, CA for depression, PTSD, and anxiety. We offer intramuscular and intranasal ketamine therapy with physician supervision. Schedule your consultation today.",
+      "servicesHeroTitle": "Ketamine Treatment",
+      "servicesHeroDescription": "Embarking on your Journey: Discovering the possibility of Ketamine Therapy ",
       "servicesHeroBackgroudImage": {
         "servicesHeroImageEnabledDisabled": [
           "Disabled"
@@ -1231,12 +1231,6 @@
         ]
       }
     },
-    {
-  "title": "Start Ketamine Treatment in Irvine, CA",
-  "heading": "Start Ketamine Treatment in Irvine, CA",
-  "description": "If you are struggling with depression, PTSD, or anxiety and have not found relief with traditional treatments, ketamine therapy may offer a new path forward.\n\nSpectrum Psychiatry provides safe, physician-supervised ketamine treatment in Irvine and throughout Orange County, including both intramuscular and intranasal options tailored to your needs.\n\nCall today or request an appointment online to schedule your ketamine consultation in Irvine, CA.",
-  "__typename": "ContentSection"
-}
     "references": {
       "__typename": "References",
       "enabledDisabled": [
@@ -1257,19 +1251,7 @@
         },
         {
           "reference": "Is ketamine safe? When administered in a controlled medical setting by a qualified provider, ketamine is considered safe and well-tolerated for appropriate patients."
-        },
-        {
-          "reference": "What conditions can ketamine therapy treat? Ketamine treatment in Irvine is commonly used for treatment-resistant depression, anxiety disorders, PTSD, and severe mood symptoms that have not responded to standard medications."
-        },
-        {
-          "reference": "What is the difference between intramuscular and intranasal ketamine? Intramuscular (IM) ketamine is administered as an injection and provides consistent absorption and dosing. Intranasal ketamine is a non-invasive option that may be appropriate depending on your treatment plan. Both are provided under medical supervision at Spectrum Psychiatry in Irvine, CA."
-        },
-        {
-          "reference": "Is ketamine covered by insurance in California? Coverage varies depending on your insurance plan. Some forms of ketamine treatment may not be covered, but our team can help you understand your options during your consultation."
-        },
-        {
-          "reference": "How much does ketamine treatment cost in Irvine? Costs vary depending on the type of treatment and number of sessions required. We provide transparent pricing and discuss all options during your initial consultation."
-        },
+        }
       ]
     }
   },
