@@ -131,25 +131,35 @@
       ],
       "bannerCarouselBlockDescription": "Explore these informative articles to expand your understanding. ",
       "bannerCarouselBlockTitle": "Check out our work",
-      "bannerCarouselBlockImagesCarousel": {
-        "edges": [
-          {
-            "node": {
-              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284487/happycouple-scaled_itqrlp.jpg"
-            }
-          },
-          {
-            "node": {
-              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284487/therapyphoto_b85rtz.jpg"
-            }
-          },
-          {
-            "node": {
-              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284487/couples-therapy_ewkqny.jpg"
-            }
-          }
-        ]
+     "bannerCarouselBlockImagesCarousel": {
+  "edges": [
+    {
+      "node": {
+        "sourceUrl": "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?q=80&w=1200&auto=format&fit=crop"
       }
+    },
+    {
+      "node": {
+        "sourceUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200&auto=format&fit=crop"
+      }
+    },
+    {
+      "node": {
+        "sourceUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop"
+      }
+    },
+    {
+      "node": {
+        "sourceUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop"
+      }
+    },
+    {
+      "node": {
+        "sourceUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop"
+      }
+    }
+  ]
+}
     },
     "homeContentSection": {
       "__typename": "HomeContentSection",
