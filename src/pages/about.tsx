@@ -6,7 +6,6 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { GetStaticProps } from "next";
 import Loader from "@components/ui/loader/loader";
 import AboutHero from "@containers/about-hero";
-import AboutStats from "@containers/about-stats";
 import AboutValues from "@containers/about-values";
 import AboutOurTeam from "@containers/about-our-team";
 
@@ -23,7 +22,6 @@ export default function Home({ data, siteSettings }: AboutPageProps) {
     return (
         <Layout siteSettings={siteSettings}>
             <AboutHero query={{ nodeByUri: data }} />
-            <AboutStats query={{ nodeByUri: data }} />
             <AboutValues query={{ nodeByUri: data }} />
             <AboutOurTeam query={{ nodeByUri: data }} />
             <Divider className="mb-0" />
