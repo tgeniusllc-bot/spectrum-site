@@ -90,9 +90,7 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
                                             {member.teamMemberRole}
                                         </p>
 
-                                        <p className="mt-4 text-sm leading-6 text-zinc-600">
-                                            {member.teamMemberLocation}
-                                        </p>
+                                        
 
                                         <div className="mt-6 flex items-center justify-between border-t border-zinc-100 pt-5">
                                             <span className="text-sm font-medium text-zinc-500">
