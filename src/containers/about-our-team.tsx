@@ -4,8 +4,7 @@ interface Props {
     query: any;
 }
 
-const ZOCDOC_BOOK_URL =
-    "https://www.zocdoc.com/practice/kateryna-koval-171909?lock=true&isNewPatient=false&referrerType=widget";
+const ZOCDOC_BOOK_URL = "/contact";
 
 const shouldContainPhoto = (name?: string) => {
     const lowerName = name?.toLowerCase() || "";
