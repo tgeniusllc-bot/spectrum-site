@@ -25,22 +25,22 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
     return (
         <>
             {aboutOurTeamEnabledDisabled[0] === "Enabled" ? (
-                <section className="mx-auto my-24 max-w-7xl px-6 lg:px-8">
+                <section className="mx-auto mt-8 mb-20 max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-3xl text-center">
                         <span className="inline-flex rounded-full bg-[#eaf4f4] px-4 py-2 text-sm font-semibold text-[#2f6f73]">
                             Our Providers
                         </span>
 
-                        <h2 className="mt-6 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl">
+                        <h2 className="mt-4 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl">
                             {aboutOurTeamTitle}
                         </h2>
 
-                        <p className="mt-6 text-lg leading-8 text-zinc-600">
+                        <p className="mt-4 text-lg leading-8 text-zinc-600">
                             {aboutOurTeamDescription}
                         </p>
                     </div>
 
-                    <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                    <div className="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                         {teamMember.map((member: any, index: number) => {
                             const detail = detailMembers[index];
 
