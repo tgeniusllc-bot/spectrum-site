@@ -4,6 +4,9 @@ interface Props {
     query: any;
 }
 
+const ZOCDOC_BOOK_URL =
+    "https://www.zocdoc.com/practice/kateryna-koval-171909?lock=true&isNewPatient=false&referrerType=widget";
+
 const AboutOurTeam: React.FC<Props> = ({ query }) => {
     const {
         aboutOurTeamTitle,
@@ -126,6 +129,15 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
                                         <p className="mt-3 text-sm text-zinc-500">
                                             {selectedMember.teamMemberLocation}
                                         </p>
+
+                                        <a
+                                            href={ZOCDOC_BOOK_URL}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="mt-5 inline-flex items-center justify-center rounded-xl bg-[#2f6f73] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#24585b]"
+                                        >
+                                            Book Appointment
+                                        </a>
 
                                         <div className="mt-6 border-t border-zinc-100 pt-6">
                                             <p className="whitespace-pre-line text-base leading-8 text-zinc-700">
