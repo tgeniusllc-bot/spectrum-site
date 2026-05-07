@@ -16,9 +16,9 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
         query.nodeByUri.acfAboutPage.aboutPageBlocks.aboutJoinOurTeamMembers ||
         [];
 
-    const aboutStats =
-        query.nodeByUri.acfAboutPage.aboutPageBlocks.aboutStatsSection
-            ?.aboutStats || [];
+    const cuneytCredentials =
+        query.nodeByUri.acfAboutPage.aboutPageBlocks.aboutOurValues
+            ?.aboutOurValuesList || [];
 
     const [selectedMember, setSelectedMember] = useState<any>(null);
 
@@ -139,26 +139,28 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
                                             ?.toLowerCase()
                                             .includes("cuneyt") && (
                                             <div className="mt-8 grid gap-4 border-t border-zinc-100 pt-6 sm:grid-cols-2">
-                                                {aboutStats.map((stat: any) => (
-                                                    <div
-                                                        key={
-                                                            stat.aboutStatsTitle
-                                                        }
-                                                        className="rounded-2xl bg-[#f7fbfb] p-5 ring-1 ring-zinc-100"
-                                                    >
-                                                        <h4 className="text-sm font-bold text-zinc-900">
-                                                            {
-                                                                stat.aboutStatsTitle
+                                                {cuneytCredentials.map(
+                                                    (item: any) => (
+                                                        <div
+                                                            key={
+                                                                item.aboutOurValuesListTitle
                                                             }
-                                                        </h4>
+                                                            className="rounded-2xl bg-[#f7fbfb] p-5 ring-1 ring-zinc-100"
+                                                        >
+                                                            <h4 className="text-sm font-bold text-zinc-900">
+                                                                {
+                                                                    item.aboutOurValuesListTitle
+                                                                }
+                                                            </h4>
 
-                                                        <p className="mt-2 whitespace-pre-line text-sm leading-6 text-zinc-600">
-                                                            {
-                                                                stat.aboutStatsDescription
-                                                            }
-                                                        </p>
-                                                    </div>
-                                                ))}
+                                                            <p className="mt-2 whitespace-pre-line text-sm leading-6 text-zinc-600">
+                                                                {
+                                                                    item.aboutOurValuesListDescription
+                                                                }
+                                                            </p>
+                                                        </div>
+                                                    )
+                                                )}
                                             </div>
                                         )}
                                     </div>
