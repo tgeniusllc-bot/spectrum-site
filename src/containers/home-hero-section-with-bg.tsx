@@ -10,83 +10,60 @@ const HomeHeroSectionWithBg: React.FC<Props> = ({ data }) => {
         homeHeroTitle,
         homeHeroDescription,
         homeHeroBackgroudImage,
+        homeHeroHeading,
         homeHeroButton,
     } = data?.nodeByUri?.homeHero;
 
     return (
-        <section
-            className="relative overflow-hidden min-h-[720px] flex items-center justify-center bg-cover bg-center"
+        <div
+            className="flex justify-center p-6 md:p-10 2xl:p-8 relative bg-no-repeat bg-center bg-cover"
             style={{
                 backgroundImage: `url(${homeHeroBackgroudImage.homeHeroBackgroudImageUrl.node.sourceUrl})`,
             }}
         >
-            {/* Dark Overlay */}
-            <div className="absolute inset-0 bg-black/60"></div>
+            <div className="absolute top-0 start-0 bg-black w-full h-full opacity-50 transition-opacity duration-500 group-hover:opacity-80" />
 
-            {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent"></div>
-
-            <div className="relative z-10 w-full max-w-7xl px-6 lg:px-12">
-                <div className="max-w-3xl">
-                    {/* Small Label */}
-                    <div className="inline-flex items-center rounded-full border border-white/20 bg-white/10 backdrop-blur-sm px-5 py-2 text-sm text-white mb-8">
-                        Compassionate Mental Health Care in California
-                    </div>
-
-                    {/* Main Heading */}
-                    <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold leading-tight text-white tracking-tight">
-                        {homeHeroTitle}
-                    </h1>
-
-                    {/* Description */}
-                    <p className="mt-8 text-lg md:text-xl leading-8 text-gray-200 max-w-2xl">
-                        {homeHeroDescription}
-                    </p>
-
-                    {/* Buttons */}
-                    <div className="mt-12 flex flex-wrap gap-5">
-                        <Link href={homeHeroButton.homeHeroButtonLink}>
-                            <Button
-                                variant="flat"
-                                className="!bg-white !text-black hover:!bg-gray-200 !px-8 !py-4 !rounded-xl !text-base !font-semibold"
-                            >
-                                {homeHeroButton.homeHeroButtonName}
-                            </Button>
-                        </Link>
-
-                        <Link href="/services">
-                            <button className="border border-white/40 text-white px-8 py-4 rounded-xl text-base font-medium hover:bg-white hover:text-black transition-all duration-300">
-                                Explore Services
-                            </button>
-                        </Link>
-                    </div>
-
-                    {/* Trust Indicators */}
-                    <div className="mt-16 flex flex-wrap gap-8 text-white/90 text-sm md:text-base">
-                        <div>
-                            <span className="font-bold text-white text-xl">
-                                10+
-                            </span>
-                            <p>Years Experience</p>
+            <main>
+                <div className="relative px-6 lg:px-8">
+                    <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+                        <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+                            <div className="relative rounded-full py-1 px-3 text-sm leading-6 theme-text-heading-with-image-bg ring-1 theme-ring-color-with-bg">
+                                {homeHeroHeading.homeHeroHeadingTitle}{" "}
+                                <Link
+                                    href={
+                                        homeHeroHeading.homeHeroHeadingButtonLink
+                                    }
+                                    className="font-semibold theme-text-heading-with-image-bg"
+                                >
+                                    <span
+                                        className="absolute inset-0"
+                                        aria-hidden="true"
+                                    />
+                                    {homeHeroHeading.homeHeroHeadingButtonName}{" "}
+                                    <span aria-hidden="true">&rarr;</span>
+                                </Link>
+                            </div>
                         </div>
-
-                        <div>
-                            <span className="font-bold text-white text-xl">
-                                1000+
-                            </span>
-                            <p>Patients Supported</p>
-                        </div>
-
-                        <div>
-                            <span className="font-bold text-white text-xl">
-                                Telehealth
-                            </span>
-                            <p>Available Across California</p>
+                        <div className="text-center">
+                            <h1 className="text-4xl font-bold tracking-tight theme-text-heading-with-image-bg sm:text-6xl">
+                                {homeHeroTitle}
+                            </h1>
+                            <p className="mt-6 text-lg leading-8 theme-text-description-with-image-bg">
+                                {homeHeroDescription}
+                            </p>
+                            <div className="mt-10 flex items-center justify-center gap-x-6">
+                                <Link href={homeHeroButton.homeHeroButtonLink}>
+                                    <Button variant="flat">
+                                        {homeHeroButton.homeHeroButtonName}
+                                    </Button>
+                                </Link>
+                            </div>
                         </div>
                     </div>
+                    <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"></div>
                 </div>
-            </div>
-        </section>
+            </main>
+        </div>
     );
 };
 
