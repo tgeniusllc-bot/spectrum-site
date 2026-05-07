@@ -64,7 +64,7 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
                                     }
                                     className="group cursor-pointer overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-zinc-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                                 >
-                                    <div className="relative h-80 overflow-hidden bg-zinc-100">
+                                    <div className="relative h-80 overflow-hidden bg-white">
                                         <img
                                             className={`h-full w-full transition-transform duration-500 group-hover:scale-105 ${
                                                 shouldContainPhoto(
