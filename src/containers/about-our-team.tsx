@@ -16,6 +16,10 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
         query.nodeByUri.acfAboutPage.aboutPageBlocks.aboutJoinOurTeamMembers ||
         [];
 
+    const aboutStats =
+        query.nodeByUri.acfAboutPage.aboutPageBlocks.aboutStatsSection
+            ?.aboutStats || [];
+
     const [selectedMember, setSelectedMember] = useState<any>(null);
 
     return (
@@ -92,7 +96,7 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
 
                     {selectedMember && (
                         <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/60 px-4">
-                            <div className="relative max-h-[90vh] w-full max-w-4xl overflow-y-auto rounded-3xl bg-white p-6 shadow-2xl md:p-10">
+                            <div className="relative max-h-[90vh] w-full max-w-5xl overflow-y-auto rounded-3xl bg-white p-6 shadow-2xl md:p-10">
                                 <button
                                     onClick={() => setSelectedMember(null)}
                                     className="absolute right-5 top-5 rounded-full bg-zinc-100 px-3 py-1 text-lg font-bold text-zinc-700 hover:bg-zinc-200"
@@ -130,6 +134,33 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
                                                     "Provider details will be added soon."}
                                             </p>
                                         </div>
+
+                                        {selectedMember.teamMemberName
+                                            ?.toLowerCase()
+                                            .includes("cuneyt") && (
+                                            <div className="mt-8 grid gap-4 border-t border-zinc-100 pt-6 sm:grid-cols-2">
+                                                {aboutStats.map((stat: any) => (
+                                                    <div
+                                                        key={
+                                                            stat.aboutStatsTitle
+                                                        }
+                                                        className="rounded-2xl bg-[#f7fbfb] p-5 ring-1 ring-zinc-100"
+                                                    >
+                                                        <h4 className="text-sm font-bold text-zinc-900">
+                                                            {
+                                                                stat.aboutStatsTitle
+                                                            }
+                                                        </h4>
+
+                                                        <p className="mt-2 whitespace-pre-line text-sm leading-6 text-zinc-600">
+                                                            {
+                                                                stat.aboutStatsDescription
+                                                            }
+                                                        </p>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                             </div>
