@@ -60,7 +60,11 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
                                 >
                                     <div className="relative h-80 overflow-hidden bg-zinc-100">
                                         <img
-                                            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                            className={`h-full w-full transition-transform duration-500 group-hover:scale-105 ${
+    member.teamMemberName?.toLowerCase().includes("cuneyt")
+        ? "object-contain bg-white p-4"
+        : "object-cover"
+}`}
                                             src={
                                                 member.teamMemberImage.node
                                                     .sourceUrl
@@ -109,7 +113,11 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
 
                                 <div className="grid gap-8 md:grid-cols-[260px_1fr]">
                                     <img
-                                        className="h-80 w-full rounded-2xl object-cover"
+                                        className={`h-80 w-full rounded-2xl ${
+    selectedMember.teamMemberName?.toLowerCase().includes("cuneyt")
+        ? "object-contain bg-white p-4"
+        : "object-cover"
+}`}
                                         src={
                                             selectedMember.teamMemberImage.node
                                                 .sourceUrl
