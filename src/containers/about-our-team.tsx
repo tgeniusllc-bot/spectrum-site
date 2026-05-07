@@ -2,52 +2,6 @@ interface Props {
     query: any;
 }
 
-const team = [
-    {
-        name: "Leslie Alexander",
-        role: "Co-Founder / CEO",
-        imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        location: "Irvine, California",
-    },
-    {
-        name: "Leslie Alexander",
-        role: "Co-Founder / CEO",
-        imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        location: "Irvine, California",
-    },
-    {
-        name: "Leslie Alexander",
-        role: "Co-Founder / CEO",
-        imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        location: "Irvine, California",
-    },
-    {
-        name: "Leslie Alexander",
-        role: "Co-Founder / CEO",
-        imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        location: "Irvine, California",
-    },
-    {
-        name: "Leslie Alexander",
-        role: "Co-Founder / CEO",
-        imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        location: "Irvine, California",
-    },
-    {
-        name: "Leslie Alexander",
-        role: "Co-Founder / CEO",
-        imageUrl:
-            "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        location: "Irvine, California",
-    },
-    // More people...
-];
-
 const AboutOurTeam: React.FC<Props> = ({ query }) => {
     const {
         aboutOurTeamTitle,
@@ -55,45 +9,70 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
         teamMember,
         aboutOurTeamEnabledDisabled,
     } = query.nodeByUri.acfAboutPage.aboutPageBlocks.aboutOurTeam;
+
     return (
         <>
             {aboutOurTeamEnabledDisabled[0] === "Enabled" ? (
-                <div className="mx-auto my-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-                    <div className="mx-auto max-w-2xl lg:mx-0">
-                        <h2 className="text-3xl font-bold tracking-tight theme-text-heading sm:text-4xl">
+                <section className="mx-auto my-24 max-w-7xl px-6 lg:px-8">
+                    <div className="mx-auto max-w-3xl text-center">
+                        <span className="inline-flex rounded-full bg-[#eaf4f4] px-4 py-2 text-sm font-semibold text-[#2f6f73]">
+                            Our Providers
+                        </span>
+
+                        <h2 className="mt-6 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl">
                             {aboutOurTeamTitle}
                         </h2>
-                        <p className="mt-6 text-lg leading-8 theme-text-description">
+
+                        <p className="mt-6 text-lg leading-8 text-zinc-600">
                             {aboutOurTeamDescription}
                         </p>
                     </div>
-                    <ul
-                        role="list"
-                        className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4"
-                    >
+
+                    <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                         {teamMember.map((member: any) => (
-                            <li key={member.teamMemberName}>
-                                <img
-                                    className="aspect-[14/13] w-full rounded-2xl object-cover"
-                                    src={member.teamMemberImage.node.sourceUrl}
-                                    alt=""
-                                />
-                                <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight theme-text-heading">
-                                    {member.teamMemberName}
-                                </h3>
-                                <p className="text-base leading-7 theme-text-description">
-                                    {member.teamMemberRole}
-                                </p>
-                                <p className="text-sm leading-2 text-gray-700 dark:text-gray-500 transition-ease-effect">
-                                    {member.teamMemberLocation}
-                                </p>
-                            </li>
+                            <article
+                                key={member.teamMemberName}
+                                className="group overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-zinc-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+                            >
+                                <div className="relative h-80 overflow-hidden bg-zinc-100">
+                                    <img
+                                        className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                        src={
+                                            member.teamMemberImage.node
+                                                .sourceUrl
+                                        }
+                                        alt={member.teamMemberName}
+                                    />
+                                </div>
+
+                                <div className="p-7">
+                                    <h3 className="text-xl font-bold text-zinc-900">
+                                        {member.teamMemberName}
+                                    </h3>
+
+                                    <p className="mt-2 text-base font-semibold text-[#2f6f73]">
+                                        {member.teamMemberRole}
+                                    </p>
+
+                                    <p className="mt-4 text-sm leading-6 text-zinc-600">
+                                        {member.teamMemberLocation}
+                                    </p>
+
+                                    <div className="mt-6 flex items-center justify-between border-t border-zinc-100 pt-5">
+                                        <span className="text-sm font-medium text-zinc-500">
+                                            Spectrum Psychiatry
+                                        </span>
+
+                                        <span className="rounded-full bg-[#eaf4f4] px-3 py-1 text-xs font-semibold text-[#2f6f73]">
+                                            Irvine, CA
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
                         ))}
-                    </ul>
-                </div>
-            ) : (
-                <></>
-            )}
+                    </div>
+                </section>
+            ) : null}
         </>
     );
 };
