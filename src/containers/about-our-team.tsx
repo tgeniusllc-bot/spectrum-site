@@ -7,12 +7,6 @@ interface Props {
 const ZOCDOC_BOOK_URL =
     "https://www.zocdoc.com/practice/kateryna-koval-171909?lock=true&isNewPatient=false&referrerType=widget";
 
-const shouldContainPhoto = (name?: string) => {
-    const lowerName = name?.toLowerCase() || "";
-
-    return lowerName.includes("cuneyt") || lowerName.includes("hatice");
-};
-
 const AboutOurTeam: React.FC<Props> = ({ query }) => {
     const {
         aboutOurTeamTitle,
@@ -66,13 +60,7 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
                                 >
                                     <div className="relative h-80 overflow-hidden bg-white">
                                         <img
-                                            className={`h-full w-full transition-transform duration-500 group-hover:scale-105 ${
-                                                shouldContainPhoto(
-                                                    member.teamMemberName
-                                                )
-                                                    ? "object-contain bg-white p-4"
-                                                    : "object-cover"
-                                            }`}
+                                            className="h-full w-full object-contain bg-white p-4 transition-transform duration-500 group-hover:scale-105"
                                             src={
                                                 member.teamMemberImage.node
                                                     .sourceUrl
@@ -121,13 +109,7 @@ const AboutOurTeam: React.FC<Props> = ({ query }) => {
 
                                 <div className="grid gap-8 md:grid-cols-[260px_1fr]">
                                     <img
-                                        className={`h-80 w-full rounded-2xl ${
-                                            shouldContainPhoto(
-                                                selectedMember.teamMemberName
-                                            )
-                                                ? "object-contain bg-white p-4"
-                                                : "object-cover"
-                                        }`}
+                                        className="h-80 w-full rounded-2xl object-contain bg-white p-4"
                                         src={
                                             selectedMember.teamMemberImage.node
                                                 .sourceUrl
