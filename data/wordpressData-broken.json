@@ -12,7 +12,7 @@
         ],
         "homeHeroBackgroudImageUrl": {
           "node": {
-            "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284490/reba-spike-oJpnd4RxI0k-unsplash-scaled_yyvtdi.jpg"
+            "sourceUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1600&auto=format&fit=crop"
           }
         }
       },
@@ -131,35 +131,25 @@
       ],
       "bannerCarouselBlockDescription": "Explore these informative articles to expand your understanding. ",
       "bannerCarouselBlockTitle": "Check out our work",
-     "bannerCarouselBlockImagesCarousel": {
-  "edges": [
-    {
-      "node": {
-        "sourceUrl": "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?q=80&w=1200&auto=format&fit=crop"
+      "bannerCarouselBlockImagesCarousel": {
+        "edges": [
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284488/farshad-rezvanian-Eelegt4hFNc-unsplash-scaled_tf0p1o.jpg"
+            }
+          },
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284489/robin-lyon-jEEPRFB3AaM-unsplash-scaled_n4selb.jpg"
+            }
+          },
+          {
+            "node": {
+              "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284489/filios-sazeides-OyPnq6HgMc-unsplash-scaled_qlxvk3.jpg"
+            }
+          }
+        ]
       }
-    },
-    {
-      "node": {
-        "sourceUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200&auto=format&fit=crop"
-      }
-    },
-    {
-      "node": {
-        "sourceUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop"
-      }
-    },
-    {
-      "node": {
-        "sourceUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop"
-      }
-    },
-    {
-      "node": {
-        "sourceUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop"
-      }
-    }
-  ]
-}
     },
     "homeContentSection": {
       "__typename": "HomeContentSection",
@@ -403,7 +393,7 @@
             {
               "teamMemberImage": {
                 "node": {
-                  "sourceUrl": "/images/cuneyt-tegin-new.jpg"
+                  "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284490/drteginpicture_bvilec.jpg"
                 }
               },
               "teamMemberName": "Dr. Cuneyt Tegin, MD",
@@ -479,7 +469,7 @@
             ],
             "joinOurTeamImage": {
               "node": {
-                "sourceUrl": "/images/cuneyt-tegin-new.jpg"
+                "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284490/drteginpicture_bvilec.jpg"
               }
             },
             "joinOurTeamTitle": "Dr. Cuneyt Tegin, MD - Medical Director",
@@ -1130,8 +1120,8 @@
     "title": "Ketamine Treatment",
     "servicesHero": {
       "__typename": "ServicesHero",
-      "servicesHeroTitle": "Ketamine Treatment",
-      "servicesHeroDescription": "Embarking on your Journey: Discovering the possibility of Ketamine Therapy ",
+      "servicesHeroTitle": "Ketamine Treatment in Irvine, CA for Depression & PTSD | Spectrum Psychiatry",
+      "servicesHeroDescription": "Ketamine treatment in Irvine, CA for depression, PTSD, and anxiety. We offer intramuscular and intranasal ketamine therapy with physician supervision. Schedule your consultation today.",
       "servicesHeroBackgroudImage": {
         "servicesHeroImageEnabledDisabled": [
           "Disabled"
@@ -1241,6 +1231,12 @@
         ]
       }
     },
+    {
+  "title": "Start Ketamine Treatment in Irvine, CA",
+  "heading": "Start Ketamine Treatment in Irvine, CA",
+  "description": "If you are struggling with depression, PTSD, or anxiety and have not found relief with traditional treatments, ketamine therapy may offer a new path forward.\n\nSpectrum Psychiatry provides safe, physician-supervised ketamine treatment in Irvine and throughout Orange County, including both intramuscular and intranasal options tailored to your needs.\n\nCall today or request an appointment online to schedule your ketamine consultation in Irvine, CA.",
+  "__typename": "ContentSection"
+}
     "references": {
       "__typename": "References",
       "enabledDisabled": [
@@ -1261,7 +1257,19 @@
         },
         {
           "reference": "Is ketamine safe? When administered in a controlled medical setting by a qualified provider, ketamine is considered safe and well-tolerated for appropriate patients."
-        }
+        },
+        {
+          "reference": "What conditions can ketamine therapy treat? Ketamine treatment in Irvine is commonly used for treatment-resistant depression, anxiety disorders, PTSD, and severe mood symptoms that have not responded to standard medications."
+        },
+        {
+          "reference": "What is the difference between intramuscular and intranasal ketamine? Intramuscular (IM) ketamine is administered as an injection and provides consistent absorption and dosing. Intranasal ketamine is a non-invasive option that may be appropriate depending on your treatment plan. Both are provided under medical supervision at Spectrum Psychiatry in Irvine, CA."
+        },
+        {
+          "reference": "Is ketamine covered by insurance in California? Coverage varies depending on your insurance plan. Some forms of ketamine treatment may not be covered, but our team can help you understand your options during your consultation."
+        },
+        {
+          "reference": "How much does ketamine treatment cost in Irvine? Costs vary depending on the type of treatment and number of sessions required. We provide transparent pricing and discuss all options during your initial consultation."
+        },
       ]
     }
   },
