@@ -469,6 +469,17 @@
               "teamMemberName": "Jessica Peraza, LCSW",
               "teamMemberRole": "Licensed Clinical Social Worker",
               "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+},
+{
+  "teamMemberImage": {
+    "node": {
+      "sourceUrl": "https://res.cloudinary.com/dlwejeeke/image/upload/v1773441652/Spectrum/unnamed_bm8xwe.jpg"
+    }
+  },
+  "teamMemberName": "Debra Sweeney, PMHNP",
+  "teamMemberRole": "Psychiatric Mental Health Nurse Practitioner",
+  "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+}
             }
           ]
         },
