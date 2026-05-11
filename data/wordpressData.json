@@ -393,96 +393,97 @@
             }
           ]
         },
-        "aboutOurTeam": {
-          "aboutOurTeamEnabledDisabled": [
-            "Enabled"
-          ],
-          "aboutOurTeamTitle": "Meet the Team Members",
-          "aboutOurTeamDescription": "Dedicated to your needs.",
-          "teamMember": [
-            {
-              "teamMemberImage": {
-                "node": {
-                  "sourceUrl": "/images/cuneyt-tegin-new.jpeg"
-                }
-              },
-              "teamMemberName": "Dr. Cuneyt Tegin, MD",
-              "teamMemberRole": "Psychiatrist, Addiction Specialist",
-              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
-            },
-            {
-              "teamMemberImage": {
-                "node": {
-                  "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284484/IMG_2322-scaled_ejkpqh.jpg"
-                }
-              },
-              "teamMemberName": "Dr. Gulay Tegin, MD",
-              "teamMemberRole": "Psychiatrist",
-              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
-            },
-            {
-              "teamMemberImage": {
-                "node": {
-                  "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284292/image_2024-11-15_142247615_f5syki.png"
-                }
-              },
-              "teamMemberName": "Dr. Ismail Deniz, MD",
-              "teamMemberRole": "Child, Adult, and Addiction Psychiatrist",
-              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
-            },
-            {
-              "teamMemberImage": {
-                "node": {
-                  "sourceUrl": "https://res.cloudinary.com/dlwejeeke/image/upload/v1758919198/Spectrum/bfe1258d-0029-454c-a436-a9ed16ca7305_sn692o.jpg"
-                }
-              },
-              "teamMemberName": "May Faustino, PMHNP-BC",
-              "teamMemberRole": "Psychiatric Mental Health Nurse Practitioner",
-              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
-            },
-            {
-              "teamMemberImage": {
-                "node": {
-                  "sourceUrl": "https://res.cloudinary.com/dcnxahe1e/image/upload/v1760983469/dr1image_pdip5x.jpg"
-                }
-              },
-              "teamMemberName": "Dr. Hatice Guncu Kurt, MD",
-              "teamMemberRole": "Psychiatrist",
-              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
-            },
-            {
-              "teamMemberImage": {
-                "node": {
-                  "sourceUrl": "https://res.cloudinary.com/dcnxahe1e/image/upload/v1761354048/a073ce9f-c6d9-4b4d-8c7c-31bebd0b5598_bwj1lw.jpg"
-                }
-              },
-              "teamMemberName": "Dr. Gayane Nurijanyan, PsyD",
-              "teamMemberRole": "Clinical Psychologist",
-              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
-            },
-            {
-              "teamMemberImage": {
-                "node": {
-                  "sourceUrl": "https://res.cloudinary.com/dcnxahe1e/image/upload/v1761101412/dr3_jd0xbm.jpg"
-                }
-              },
-              "teamMemberName": "Jessica Peraza, LCSW",
-              "teamMemberRole": "Licensed Clinical Social Worker",
-              "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
-},
-{
-  "teamMemberImage": {
-    "node": {
-      "sourceUrl": "https://res.cloudinary.com/dlwejeeke/image/upload/v1773441652/Spectrum/unnamed_bm8xwe.jpg"
+       "aboutOurTeam": {
+  "aboutOurTeamEnabledDisabled": [
+    "Enabled"
+  ],
+  "aboutOurTeamTitle": "Meet the Team Members",
+  "aboutOurTeamDescription": "Dedicated to your needs.",
+  "teamMember": [
+    {
+      "teamMemberImage": {
+        "node": {
+          "sourceUrl": "/images/cuneyt-tegin-new.jpeg"
+        }
+      },
+      "teamMemberName": "Dr. Cuneyt Tegin, MD",
+      "teamMemberRole": "Psychiatrist, Addiction Specialist",
+      "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+    },
+    {
+      "teamMemberImage": {
+        "node": {
+          "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284484/IMG_2322-scaled_ejkpqh.jpg"
+        }
+      },
+      "teamMemberName": "Dr. Gulay Tegin, MD",
+      "teamMemberRole": "Psychiatrist",
+      "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+    },
+    {
+      "teamMemberImage": {
+        "node": {
+          "sourceUrl": "https://res.cloudinary.com/dmgi3xmla/image/upload/v1741284292/image_2024-11-15_142247615_f5syki.png"
+        }
+      },
+      "teamMemberName": "Dr. Ismail Deniz, MD",
+      "teamMemberRole": "Child, Adult, and Addiction Psychiatrist",
+      "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+    },
+    {
+      "teamMemberImage": {
+        "node": {
+          "sourceUrl": "https://res.cloudinary.com/dlwejeeke/image/upload/v1758919198/Spectrum/bfe1258d-0029-454c-a436-a9ed16ca7305_sn692o.jpg"
+        }
+      },
+      "teamMemberName": "May Faustino, PMHNP-BC",
+      "teamMemberRole": "Psychiatric Mental Health Nurse Practitioner",
+      "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+    },
+    {
+      "teamMemberImage": {
+        "node": {
+          "sourceUrl": "https://res.cloudinary.com/dcnxahe1e/image/upload/v1760983469/dr1image_pdip5x.jpg"
+        }
+      },
+      "teamMemberName": "Dr. Hatice Guncu Kurt, MD",
+      "teamMemberRole": "Psychiatrist",
+      "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+    },
+    {
+      "teamMemberImage": {
+        "node": {
+          "sourceUrl": "https://res.cloudinary.com/dcnxahe1e/image/upload/v1761354048/a073ce9f-c6d9-4b4d-8c7c-31bebd0b5598_bwj1lw.jpg"
+        }
+      },
+      "teamMemberName": "Dr. Gayane Nurijanyan, PsyD",
+      "teamMemberRole": "Clinical Psychologist",
+      "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+    },
+    {
+      "teamMemberImage": {
+        "node": {
+          "sourceUrl": "https://res.cloudinary.com/dcnxahe1e/image/upload/v1761101412/dr3_jd0xbm.jpg"
+        }
+      },
+      "teamMemberName": "Jessica Peraza, LCSW",
+      "teamMemberRole": "Licensed Clinical Social Worker",
+      "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
+    },
+    {
+      "teamMemberImage": {
+        "node": {
+          "sourceUrl": "https://res.cloudinary.com/dlwejeeke/image/upload/v1773441652/Spectrum/unnamed_bm8xwe.jpg"
+        }
+      },
+      "teamMemberName": "Debra Sweeney, PMHNP",
+      "teamMemberRole": "Psychiatric Mental Health Nurse Practitioner",
+      "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
     }
-  },
-  "teamMemberName": "Debra Sweeney, PMHNP",
-  "teamMemberRole": "Psychiatric Mental Health Nurse Practitioner",
-  "teamMemberLocation": "15615 Alton Pkwy suite 220, Irvine, CA 92618"
-        },
-        {
-        "aboutJoinOurTeamMembers": [
-          {
+  ]
+},
+"aboutJoinOurTeamMembers": [
+{
             "joinOurTeamEnabledDisabled": [
               "Enabled"
             ],
@@ -771,12 +772,12 @@
               }
             ],
             "joinOurTeamButton": {
-              "joinOurTeamButtonEnabledDisabled": [
-                "Disabled"
-              ],
-              "joinOurTeamButtonTitle": "See our Articles",
-              "joinOurTeamButtonLink": "https://news.harvard.edu/gazette/story/2023/05/ketamine-found-effective-in-treatment-resistant-depression/"
-            }
+  "joinOurTeamButtonEnabledDisabled": [
+    "Disabled"
+  ],
+  "joinOurTeamButtonTitle": "See our Articles",
+  "joinOurTeamButtonLink": "https://news.harvard.edu/gazette/story/2023/05/ketamine-found-effective-in-treatment-resistant-depression/"
+}
           }
         ]
       }
