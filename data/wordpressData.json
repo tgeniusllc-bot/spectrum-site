@@ -5,7 +5,7 @@
     "homeHero": {
       "__typename": "HomeHero",
       "homeHeroTitle": "Spectrum Psychiatry",
-      "homeHeroDescription": "Connecting Minds, Building Wellness. Start Your Journey Now",
+      "homeHeroDescription": "Mental health care in Irvine, CA for depression, anxiety, addiction, medication management, ketamine treatment, and suboxone therapy.",
       "homeHeroBackgroudImage": {
         "homeHeroImageEnabledDisabled": [
           "Enabled"
@@ -34,7 +34,7 @@
       "featureSectionEnabledDisabled": [
         "Enabled"
       ],
-      "featureSectionDescription": "At Spectrum Psychiatry in Irvine, CA, Dr. Cuneyt Tegin, MD, and his team prioritize your mental health and well-being. We provide individual, along with specialized services such as suboxone treatment, ketamine treatment, and medication management. Contact us today for more information or to schedule an appointment. Our office is conveniently located at 15615 Alton Pkwy Ste 220, Irvine, California, 92618",
+      "featureSectionDescription": "Spectrum Psychiatry is a trusted mental health clinic in Irvine, CA, providing compassionate and personalized psychiatric care. Our experienced providers offer medication management, ketamine treatment, suboxone therapy, and individual therapy for patients facing depression, anxiety, addiction, and other mental health challenges. Located in Orange County, we are committed to helping patients build lasting wellness through evidence-based treatment and supportive care.",
       "numberOfColumns": "2",
       "featureSectionFeatures": [
         {
