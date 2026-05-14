@@ -1141,7 +1141,7 @@
     "servicesHero": {
       "__typename": "ServicesHero",
       "servicesHeroTitle": "Ketamine Treatment",
-      "servicesHeroDescription": "Ketamine treatment in Irvine, CA for depression, PTSD, and anxiety. We offer intramuscular and intranasal ketamine therapy with physician supervision. Schedule your consultation today. ",
+      "servicesHeroDescription": "Ketamine treatment in Irvine, CA for depression. We offer intramuscular and intranasal ketamine therapy with physician supervision. Schedule your consultation today.",
       "servicesHeroBackgroudImage": {
         "servicesHeroImageEnabledDisabled": [
           "Enabled"
