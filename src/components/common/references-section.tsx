@@ -20,34 +20,32 @@ export default function References({ query }: any) {
                                 </p>
                             </div>
 
-                            <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 sm:grid-cols-1 lg:gap-y-16">
+                            <dl className="col-span-2 grid grid-cols-1 gap-y-12">
                                 {referenceList.map((feature: any, i: any) => {
-                                    const parts = feature.reference
-                                        ? feature.reference.split("\n\n")
-                                        : [];
+                                    const fullText = feature.reference || "";
+                                    const questionMarkIndex = fullText.indexOf("?");
+
+                                    const question =
+                                        questionMarkIndex >= 0
+                                            ? fullText.slice(0, questionMarkIndex + 1)
+                                            : fullText;
+
+                                    const answer =
+                                        questionMarkIndex >= 0
+                                            ? fullText.slice(questionMarkIndex + 1).trim()
+                                            : "";
 
                                     return (
                                         <div key={i} className="relative sm:pl-9">
-                                            <dd className="mt-2">
-                                                {parts.map(
-                                                    (part: string, index: number) =>
-                                                        index === 0 ? (
-                                                            <h3
-                                                                key={index}
-                                                                className="mb-3 text-lg font-bold text-black"
-                                                            >
-                                                                {part}
-                                                            </h3>
-                                                        ) : (
-                                                            <p
-                                                                key={index}
-                                                                className="mb-6 text-base font-normal leading-7 text-black"
-                                                            >
-                                                                {part}
-                                                            </p>
-                                                        )
-                                                )}
-                                            </dd>
+                                            <dt className="text-lg font-bold text-black">
+                                                {question}
+                                            </dt>
+
+                                            {answer && (
+                                                <dd className="mt-3 text-base font-normal leading-7 text-black">
+                                                    {answer}
+                                                </dd>
+                                            )}
                                         </div>
                                     );
                                 })}
