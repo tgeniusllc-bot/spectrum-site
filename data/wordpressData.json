@@ -1259,8 +1259,6 @@
       "title": "FAQ",
       "heading": "Frequently Asked Questions",
       "description": null,
-      "referenceList": [
-        {
           "referenceList": [
   {
     "reference": "How quickly does ketamine work?\n\nMany patients notice improvement within hours to days, compared to weeks with traditional antidepressants."
@@ -1284,8 +1282,8 @@
     "reference": "What conditions can ketamine therapy treat?\n\nKetamine treatment in Irvine is commonly used for treatment-resistant depression, anxiety disorders, PTSD, and severe mood symptoms that have not responded to standard medications."
   }
 ]
-    }
-  },
+}
+},
   "contact": {
     "__typename": "Page",
     "title": "Contact",
