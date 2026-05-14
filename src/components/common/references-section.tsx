@@ -1,6 +1,7 @@
 export default function References({ query }: any) {
     const { title, heading, description, enabledDisabled, referenceList } =
         query?.nodeByUri.references;
+
     return (
         <>
             {enabledDisabled[0] === "Enabled" ? (
@@ -18,17 +19,38 @@ export default function References({ query }: any) {
                                     {description}
                                 </p>
                             </div>
-                            <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 theme-text-heading sm:grid-cols-1 lg:gap-y-16">
-                                {referenceList.map((feature: any, i: any) => (
-                                    <div key={i} className="relative sm:pl-9">
-                                        {/* <dt className="font-semibold theme-text-description">
-                                    {feature.name}
-                                </dt> */}
-                                        <dd className="mt-2">
-                                            {feature.reference}
-                                        </dd>
-                                    </div>
-                                ))}
+
+                            <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 sm:grid-cols-1 lg:gap-y-16">
+                                {referenceList.map((feature: any, i: any) => {
+                                    const parts = feature.reference
+                                        ? feature.reference.split("\n\n")
+                                        : [];
+
+                                    return (
+                                        <div key={i} className="relative sm:pl-9">
+                                            <dd className="mt-2">
+                                                {parts.map(
+                                                    (part: string, index: number) =>
+                                                        index === 0 ? (
+                                                            <h3
+                                                                key={index}
+                                                                className="mb-3 text-lg font-bold text-black"
+                                                            >
+                                                                {part}
+                                                            </h3>
+                                                        ) : (
+                                                            <p
+                                                                key={index}
+                                                                className="mb-6 text-base font-normal leading-7 text-black"
+                                                            >
+                                                                {part}
+                                                            </p>
+                                                        )
+                                                )}
+                                            </dd>
+                                        </div>
+                                    );
+                                })}
                             </dl>
                         </div>
                     </div>
