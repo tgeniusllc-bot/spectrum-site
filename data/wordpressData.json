@@ -1261,18 +1261,29 @@
       "description": null,
       "referenceList": [
         {
-          "reference": "How quickly does ketamine work? Many patients notice improvement within hours to days, compared to weeks with traditional antidepressants."
-        },
-        {
-          "reference": "Is ketamine FDA-approved for depression? Ketamine is widely used off-label for depression, while a related medication, esketamine (Spravato), is FDA-approved."
-        },
-        {
-          "reference": "How many sessions are needed? Treatment plans vary, but many patients begin with a series of sessions followed by maintenance care."
-        },
-        {
-          "reference": "Is ketamine safe? When administered in a controlled medical setting by a qualified provider, ketamine is considered safe and well-tolerated for appropriate patients."
-        }
-      ]
+          "referenceList": [
+  {
+    "reference": "How quickly does ketamine work?\n\nMany patients notice improvement within hours to days, compared to weeks with traditional antidepressants."
+  },
+  {
+    "reference": "Is ketamine FDA-approved for depression?\n\nKetamine is widely used off-label for depression, while a related medication, esketamine (Spravato), is FDA-approved."
+  },
+  {
+    "reference": "How many sessions are needed?\n\nTreatment plans vary, but many patients begin with a series of sessions followed by maintenance care."
+  },
+  {
+    "reference": "Is ketamine safe?\n\nWhen administered in a controlled medical setting by a qualified provider, ketamine is considered safe and well-tolerated for appropriate patients."
+  },
+  {
+    "reference": "What is the difference between intramuscular and intranasal ketamine?\n\nIntramuscular (IM) ketamine is administered as an injection and provides consistent absorption and dosing. Intranasal ketamine is a non-invasive option that may be appropriate depending on your treatment plan."
+  },
+  {
+    "reference": "How much does ketamine treatment cost in Irvine?\n\nCosts vary depending on the type of treatment and number of sessions required. We provide transparent pricing and discuss all options during your initial consultation."
+  },
+  {
+    "reference": "What conditions can ketamine therapy treat?\n\nKetamine treatment in Irvine is commonly used for treatment-resistant depression, anxiety disorders, PTSD, and severe mood symptoms that have not responded to standard medications."
+  }
+]
     }
   },
   "contact": {
