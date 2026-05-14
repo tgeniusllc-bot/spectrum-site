@@ -1,5 +1,4 @@
 import Link from "@components/ui/link";
-import Button from "@components/ui/button";
 
 interface Props {
     data: any;
@@ -11,7 +10,6 @@ const HomeHeroSectionWithBg: React.FC<Props> = ({ data }) => {
         homeHeroDescription,
         homeHeroBackgroudImage,
         homeHeroHeading,
-        homeHeroButton,
     } = data?.nodeByUri?.homeHero;
 
     return (
@@ -30,9 +28,7 @@ const HomeHeroSectionWithBg: React.FC<Props> = ({ data }) => {
                             <div className="relative rounded-full py-1 px-3 text-sm leading-6 theme-text-heading-with-image-bg ring-1 theme-ring-color-with-bg">
                                 {homeHeroHeading.homeHeroHeadingTitle}{" "}
                                 <Link
-                                    href={
-                                        homeHeroHeading.homeHeroHeadingButtonLink
-                                    }
+                                    href={homeHeroHeading.homeHeroHeadingButtonLink}
                                     className="font-semibold theme-text-heading-with-image-bg"
                                 >
                                     <span
@@ -44,6 +40,7 @@ const HomeHeroSectionWithBg: React.FC<Props> = ({ data }) => {
                                 </Link>
                             </div>
                         </div>
+
                         <div className="text-center">
                             <h1 className="text-4xl font-bold tracking-tight theme-text-heading-with-image-bg sm:text-6xl">
                                 {homeHeroTitle}
@@ -51,15 +48,9 @@ const HomeHeroSectionWithBg: React.FC<Props> = ({ data }) => {
                             <p className="mt-6 text-lg leading-8 theme-text-description-with-image-bg">
                                 {homeHeroDescription}
                             </p>
-                            <div className="mt-10 flex items-center justify-center gap-x-6">
-                                <Link href={homeHeroButton.homeHeroButtonLink}>
-                                    <Button variant="flat">
-                                        {homeHeroButton.homeHeroButtonName}
-                                    </Button>
-                                </Link>
-                            </div>
                         </div>
                     </div>
+
                     <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"></div>
                 </div>
             </main>
