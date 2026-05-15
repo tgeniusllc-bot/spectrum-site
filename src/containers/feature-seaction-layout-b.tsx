@@ -1,5 +1,4 @@
 import Link from "@components/ui/link";
-import Button from "@components/ui/button";
 
 interface Props {
     data: any;
@@ -12,7 +11,6 @@ const FeatureSectionLayoutB: React.FC<Props> = ({ data }) => {
         alternatingBlockButton,
         alternatingBlockImage,
     } = data;
-    console.log("datadatadata", data);
 
     return (
         <div className="relative overflow-hidden py-8 sm:py-16 bg-theme">
@@ -21,18 +19,11 @@ const FeatureSectionLayoutB: React.FC<Props> = ({ data }) => {
                 <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
                     <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
                         <div>
-                            {/* <div>
-                            <span className="flex h-12 w-12 items-center justify-center rounded-md bg-gradient-to-r from-purple-600 to-indigo-600">
-                                <InboxIcon
-                                    className="h-6 w-6 text-white"
-                                    aria-hidden="true"
-                                />
-                            </span>
-                        </div> */}
-                            <div className=" ">
+                            <div>
                                 <h2 className="mb-14 text-3xl font-light tracking-tight theme-text-heading">
                                     {alternatingBlockHeading}
                                 </h2>
+
                                 <dl className="mt-10 space-y-10">
                                     {alternatingBlockContent?.map(
                                         (feature: any) => (
@@ -55,6 +46,7 @@ const FeatureSectionLayoutB: React.FC<Props> = ({ data }) => {
                                         )
                                     )}
                                 </dl>
+
                                 {alternatingBlockButton
                                     ?.alternatingBlockButtonEnabled[0] ===
                                     "Enabled" && (
@@ -63,23 +55,23 @@ const FeatureSectionLayoutB: React.FC<Props> = ({ data }) => {
                                             href={
                                                 alternatingBlockButton?.alternatingBlockButtonLink as string
                                             }
+                                            className="inline-flex items-center justify-center rounded-md bg-black px-6 py-3 text-sm font-semibold text-white hover:bg-gray-800 transition"
                                         >
-                                            <Button variant="slim" className="!text-white !opacity-100">
-    Learn More
-</Button>
+                                            Learn More
                                         </Link>
                                     </div>
                                 )}
                             </div>
                         </div>
                     </div>
+
                     <div className="mt-12 sm:mt-16 lg:mt-0">
                         <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                             <img
                                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                                 src={
                                     alternatingBlockImage?.node
-                                        .sourceUrl as string
+                                        ?.sourceUrl as string
                                 }
                                 alt={alternatingBlockHeading as string}
                             />
