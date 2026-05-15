@@ -65,10 +65,8 @@ const FeatureSectionLayoutA: React.FC<Props> = ({ data }) => {
                                             }
                                         >
                                             <Button variant="slim" className="text-white">
-                                                {
-                                                    alternatingBlockButton?.alternatingBlockButtonName as string
-                                                }
-                                            </Button>
+    Learn More
+</Button>
                                         </Link>
                                     </div>
                                 )}
