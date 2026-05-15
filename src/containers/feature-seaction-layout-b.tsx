@@ -1,4 +1,5 @@
 import Link from "@components/ui/link";
+import Button from "@components/ui/button";
 
 interface Props {
     data: any;
@@ -58,12 +59,15 @@ const FeatureSectionLayoutB: React.FC<Props> = ({ data }) => {
                                     ?.alternatingBlockButtonEnabled[0] ===
                                     "Enabled" && (
                                     <div className="mt-6">
-                                       <Link
-    href={alternatingBlockButton?.alternatingBlockButtonLink as string}
-    className="inline-flex items-center rounded-md bg-black px-6 py-3 text-sm font-semibold text-white hover:bg-gray-800 transition"
->
+                                        <Link
+                                            href={
+                                                alternatingBlockButton?.alternatingBlockButtonLink as string
+                                            }
+                                        >
+                                            <Button variant="slim" className="!text-white !opacity-100">
     Learn More
-</Link>
+</Button>
+                                        </Link>
                                     </div>
                                 )}
                             </div>
