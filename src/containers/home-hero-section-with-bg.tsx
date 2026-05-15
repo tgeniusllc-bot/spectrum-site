@@ -16,7 +16,7 @@ const HomeHeroSectionWithBg: React.FC<Props> = ({ data }) => {
                 backgroundImage: `url(${homeHeroBackgroudImage.homeHeroBackgroudImageUrl.node.sourceUrl})`,
             }}
         >
-            <div className="absolute top-0 start-0 bg-black w-full h-full opacity-25 transition-opacity duration-500 group-hover:opacity-40" />
+            <div className="absolute top-0 start-0 bg-black w-full h-full opacity-20 transition-opacity duration-500 group-hover:opacity-40" />
 
             <main>
                 <div className="relative px-6 lg:px-8">
