@@ -12,7 +12,7 @@
         ],
         "homeHeroBackgroudImageUrl": {
           "node": {
-            "sourceUrl": "/images/therapy-hero.jpg"
+            "sourceUrl": "/public/images/therapy-hero.jpg"
           }
         }
       },
