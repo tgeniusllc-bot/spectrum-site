@@ -69,7 +69,7 @@ export default function Home({
                             <ContactForm />
                         </div>
                     </div>
-                    <BannerCarouselSection query={{ nodeByUri: data }} />
+                    
                 </Container>
                 <Divider className="mb-0" />
             </Layout>

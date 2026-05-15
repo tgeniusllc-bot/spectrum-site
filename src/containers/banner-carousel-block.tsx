@@ -33,7 +33,7 @@ const BannerCarouselBlock: React.FC<BannerProps> = ({
                     <SwiperSlide key={`banner-key-${i}`}>
                         <BannerCard
                             banner={banner}
-                            href={"/"}
+                            href={banner.slug}   // 🔥 BURASI DÜZELDİ
                             effectActive={true}
                         />
                     </SwiperSlide>
