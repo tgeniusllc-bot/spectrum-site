@@ -37,6 +37,30 @@ const posts = [
         image:
             "https://images.unsplash.com/photo-1550831107-1553da8c8464?q=80&w=2070&auto=format&fit=crop",
     },
+    {
+        title: "Medication Management: What to Expect",
+        excerpt:
+            "Learn what to expect from psychiatric medication management, including evaluations, follow-ups, and personalized treatment plans.",
+        href: "/blog/medication-management-what-to-expect",
+        image:
+            "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?q=80&w=2070&auto=format&fit=crop",
+    },
+    {
+        title: "Anxiety Symptoms and Treatment",
+        excerpt:
+            "Understand common anxiety symptoms and explore effective treatment options for long-term mental well-being.",
+        href: "/blog/anxiety-symptoms-and-treatment",
+        image:
+            "https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2070&auto=format&fit=crop",
+    },
+    {
+        title: "Therapy vs Medication: Which Is Right for You?",
+        excerpt:
+            "Compare therapy and medication options to find the right mental health treatment approach for your needs.",
+        href: "/blog/therapy-vs-medication",
+        image:
+            "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?q=80&w=2070&auto=format&fit=crop",
+    },
 ];
 
 export default function BlogPage({ siteSettings }: BlogPageProps) {
