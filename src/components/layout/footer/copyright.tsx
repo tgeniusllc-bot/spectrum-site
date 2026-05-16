@@ -32,8 +32,9 @@ const Copyright: React.FC<CopyrightProps> = ({ variant }) => {
                             rel="noopener noreferrer"
                             className="font-semibold underline transition hover:text-blue-500 hover:opacity-100"
                         >
-                            Keremiyo
-                        </a>
+                            Keremiyo 🎵
+                        </a>{" "}
+                        <span>🔥</span>
                     </span>
                 </p>
 
