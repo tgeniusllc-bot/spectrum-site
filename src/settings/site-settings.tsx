@@ -24,12 +24,12 @@ export const siteSettings = {
                 label: "Home",
             },
             {
-                id: 0,
+                id: 1,
                 path: "/about",
                 label: "About",
             },
             {
-                id: 1,
+                id: 2,
                 path: "/",
                 label: "Services",
                 subMenu: [
@@ -57,6 +57,11 @@ export const siteSettings = {
             },
             {
                 id: 3,
+                path: "/blog",
+                label: "Blog",
+            },
+            {
+                id: 4,
                 path: "/contact",
                 label: "Contact",
             },
@@ -68,12 +73,12 @@ export const siteSettings = {
                 label: "Home",
             },
             {
-                id: 0,
+                id: 1,
                 path: "/about",
                 label: "About",
             },
             {
-                id: 1,
+                id: 2,
                 path: "/",
                 label: "Services",
                 subMenu: [
@@ -101,6 +106,11 @@ export const siteSettings = {
             },
             {
                 id: 3,
+                path: "/blog",
+                label: "Blog",
+            },
+            {
+                id: 4,
                 path: "/contact",
                 label: "Contact",
             },
