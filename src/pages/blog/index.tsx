@@ -18,18 +18,24 @@ const posts = [
         excerpt:
             "Learn how ketamine therapy may help people with treatment-resistant depression and other mental health concerns.",
         href: "/blog/what-is-ketamine-therapy",
+        image:
+            "https://images.unsplash.com/photo-1576671081837-49000212a370?q=80&w=2070&auto=format&fit=crop",
     },
     {
         title: "Signs of Depression",
         excerpt:
             "Understand common symptoms of depression and when it may be time to seek professional mental health support.",
         href: "/blog/signs-of-depression",
+        image:
+            "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?q=80&w=2070&auto=format&fit=crop",
     },
     {
         title: "How to Choose a Psychiatrist in Irvine, CA",
         excerpt:
             "Important things to consider when looking for a psychiatrist or mental health clinic in Irvine, CA.",
         href: "/blog/how-to-choose-a-psychiatrist-in-irvine-ca",
+        image:
+            "https://images.unsplash.com/photo-1550831107-1553da8c8464?q=80&w=2070&auto=format&fit=crop",
     },
 ];
 
@@ -45,35 +51,51 @@ export default function BlogPage({ siteSettings }: BlogPageProps) {
             </Head>
 
             <Layout siteSettings={siteSettings}>
-                <Container className="bg-theme">
-                    <section className="py-16 lg:py-24 xl:max-w-screen-xl mx-auto px-4 text-center">
-                        <h1 className="text-4xl md:text-5xl font-bold theme-text-heading mb-6">
+                <section className="relative min-h-[520px] flex items-center justify-center text-center overflow-hidden">
+                    <img
+                        src="https://images.unsplash.com/photo-1493836512294-502baa1986e2?q=80&w=2070&auto=format&fit=crop"
+                        alt="Mental health blog"
+                        className="absolute inset-0 w-full h-full object-cover"
+                    />
+
+                    <div className="absolute inset-0 bg-black opacity-40"></div>
+
+                    <div className="relative z-10 px-4 max-w-4xl mx-auto pt-20">
+                        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
                             Mental Health Blog
                         </h1>
 
-                        <p className="text-base md:text-lg leading-8 theme-text-description max-w-3xl mx-auto">
+                        <p className="text-base md:text-xl leading-8 text-white max-w-3xl mx-auto">
                             Helpful articles from Spectrum Psychiatry in Irvine, CA about mental health, psychiatry, ketamine therapy, depression, anxiety, medication management, and emotional wellness.
                         </p>
-                    </section>
-                </Container>
+                    </div>
+                </section>
 
                 <Container className="bg-theme">
-                    <section className="py-10 lg:py-16 xl:max-w-screen-xl mx-auto px-4">
+                    <section className="py-12 lg:py-16 xl:max-w-screen-xl mx-auto px-4">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                             {posts.map((post) => (
                                 <Link href={post.href} key={post.href}>
-                                    <a className="block rounded-2xl border border-gray-200 p-6 shadow-sm bg-white hover:shadow-md transition">
-                                        <h2 className="text-2xl font-bold theme-text-heading mb-4">
-                                            {post.title}
-                                        </h2>
+                                    <a className="block overflow-hidden rounded-2xl border border-gray-200 shadow-sm bg-white hover:shadow-md transition">
+                                        <img
+                                            src={post.image}
+                                            alt={post.title}
+                                            className="w-full h-48 object-cover"
+                                        />
 
-                                        <p className="text-base leading-7 theme-text-description">
-                                            {post.excerpt}
-                                        </p>
+                                        <div className="p-6">
+                                            <h2 className="text-2xl font-bold theme-text-heading mb-4">
+                                                {post.title}
+                                            </h2>
 
-                                        <span className="mt-5 inline-block font-semibold text-spectrumBlue">
-                                            Read More →
-                                        </span>
+                                            <p className="text-base leading-7 theme-text-description">
+                                                {post.excerpt}
+                                            </p>
+
+                                            <span className="mt-5 inline-block font-semibold text-spectrumBlue">
+                                                Read More →
+                                            </span>
+                                        </div>
                                     </a>
                                 </Link>
                             ))}
