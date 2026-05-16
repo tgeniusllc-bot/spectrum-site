@@ -48,7 +48,8 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
             disabled={disabled}
             {...rest}
         >
-            {children}
+            {children || "Learn More"}
+
             {loading && (
                 <svg
                     className="animate-spin -me-1 ms-3 h-5 w-5 theme-button-text"

@@ -3,11 +3,8 @@ interface Props {
 }
 
 const HomeHeroSectionWithBg: React.FC<Props> = ({ data }) => {
-    const {
-        homeHeroTitle,
-        homeHeroDescription,
-        homeHeroBackgroudImage,
-    } = data?.nodeByUri?.homeHero;
+    const { homeHeroTitle, homeHeroDescription, homeHeroBackgroudImage } =
+        data?.nodeByUri?.homeHero;
 
     return (
         <div
@@ -16,22 +13,53 @@ const HomeHeroSectionWithBg: React.FC<Props> = ({ data }) => {
                 backgroundImage: `url(${homeHeroBackgroudImage.homeHeroBackgroudImageUrl.node.sourceUrl})`,
             }}
         >
-<div className="absolute top-0 start-0 bg-black/5 w-full h-full transition-opacity duration-500" />
+            <div className="absolute top-0 start-0 bg-black/20 w-full h-full" />
 
-            <main>
+            <main className="relative z-10">
                 <div className="relative px-6 lg:px-8">
-                    <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-                        <div className="text-center">
-                            <h1 className="text-4xl font-bold tracking-tight theme-text-heading-with-image-bg sm:text-6xl">
-                                {homeHeroTitle}
-                            </h1>
-                            <p className="mt-6 text-lg leading-8 theme-text-description-with-image-bg">
-                                {homeHeroDescription}
-                            </p>
+                    <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 text-center">
+                        <h1 className="text-4xl font-bold tracking-tight theme-text-heading-with-image-bg sm:text-6xl">
+                            {homeHeroTitle}
+                        </h1>
+
+                        <p className="mt-6 text-lg leading-8 theme-text-description-with-image-bg">
+                            {homeHeroDescription}
+                        </p>
+
+                        <div style={{ marginTop: "40px", textAlign: "center" }}>
+                            <a
+                                href="/contact"
+                                style={{
+                                    display: "inline-flex",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    padding: "14px 32px",
+                                    borderRadius: "9999px",
+                                    backgroundColor: "#2f6f73",
+                                    textDecoration: "none",
+                                    boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
+                                    minWidth: "160px",
+                                    minHeight: "50px",
+                                    position: "relative",
+                                    zIndex: 9999,
+                                }}
+                            >
+                                <span
+                                    style={{
+                                        color: "#ffffff",
+                                        fontSize: "16px",
+                                        fontWeight: 700,
+                                        lineHeight: "1",
+                                        display: "block",
+                                        opacity: 1,
+                                        visibility: "visible",
+                                    }}
+                                >
+                                    Learn More
+                                </span>
+                            </a>
                         </div>
                     </div>
-
-                    <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"></div>
                 </div>
             </main>
         </div>
