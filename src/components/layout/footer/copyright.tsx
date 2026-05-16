@@ -30,9 +30,9 @@ const Copyright: React.FC<CopyrightProps> = ({ variant }) => {
                             href="https://www.youtube.com/watch?v=cAe1lVDbLf0"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="font-semibold underline hover:opacity-100"
+                            className="font-semibold underline transition hover:text-blue-500 hover:opacity-100"
                         >
-                            Keremiyo
+                            Keremiyo 🎵
                         </a>
                     </span>
                 </p>
