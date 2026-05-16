@@ -66,6 +66,9 @@ const posts = [
 export default function BlogPage({ siteSettings }: BlogPageProps) {
     return (
         <>
+<h1 style={{ color: "red", fontSize: "40px" }}>
+  KEREM TEST
+</h1>
             <Head>
                 <title>Mental Health Blog | Spectrum Psychiatry Irvine, CA</title>
                 <meta
