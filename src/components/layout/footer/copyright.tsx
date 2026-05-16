@@ -25,7 +25,15 @@ const Copyright: React.FC<CopyrightProps> = ({ variant }) => {
                     All rights reserved
                     <br />
                     <span className="text-[12px] opacity-70">
-                        Powered by Keremiyo
+                        Powered by{" "}
+                        <a
+                            href="https://www.youtube.com/watch?v=cAe1lVDbLf0"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-semibold underline hover:opacity-100"
+                        >
+                            Keremiyo
+                        </a>
                     </span>
                 </p>
 
