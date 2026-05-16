@@ -1,5 +1,4 @@
 import { ContainerInner, ContainerOuter } from "./Container";
-import Copyright from "./copyright";
 
 function NavLink({
     href,
@@ -60,8 +59,7 @@ export function Footer({ siteSettings }: { siteSettings: any }) {
                                         className="font-semibold underline transition hover:text-blue-500 hover:opacity-100"
                                     >
                                         Keremiyo 🎵
-                                    </a>{" "}
-                                    <span>🔥</span>
+                                    </a>
                                 </span>
                             </div>
                         </div>
