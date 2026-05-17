@@ -19,7 +19,7 @@ function NavLink({
 
 export function Footer({ siteSettings }: { siteSettings: any }) {
     return (
-        <footer className="w-full">
+        <footer className="relative z-[9999] w-full">
             <ContainerOuter>
                 <div className="border-t border-zinc-100 pb-6 pt-6 dark:border-zinc-700/40">
                     <ContainerInner>
@@ -45,18 +45,13 @@ export function Footer({ siteSettings }: { siteSettings: any }) {
                                 All rights reserved
                             </div>
 
-                            <div className="text-center text-[12px] opacity-80 theme-text-description">
+                            <div className="relative z-[9999] text-center text-[12px] opacity-90 theme-text-description">
                                 Powered by{" "}
                                 <a
                                     href="https://www.youtube.com/watch?v=cAe1lVDbLf0"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    style={{
-                                        position: "relative",
-                                        zIndex: 9999,
-                                        pointerEvents: "auto",
-                                    }}
-                                    className="font-semibold underline cursor-pointer transition hover:text-blue-500 hover:opacity-100"
+                                    className="relative z-[9999] font-semibold underline cursor-pointer text-blue-600 transition hover:text-blue-700"
                                 >
                                     Keremiyo 🎵
                                 </a>{" "}
