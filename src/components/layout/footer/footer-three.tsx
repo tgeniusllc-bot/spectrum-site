@@ -45,9 +45,7 @@ export function Footer({ siteSettings }: { siteSettings: any }) {
                                 All rights reserved
                             </div>
 
-                            <div className="relative z-[9999] text-center text-[13px] font-bold text-red-600">
-                                KEREM TEST 123
-                                <br />
+                            <div className="relative z-[9999] text-center text-[12px] opacity-90 theme-text-description">
                                 Powered by{" "}
                                 <a
                                     href="https://www.youtube.com/watch?v=cAe1lVDbLf0"
