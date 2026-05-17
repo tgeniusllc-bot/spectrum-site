@@ -102,18 +102,6 @@ export default function Home({
           </div>
         </Container>
 
-        <div
-          style={{
-            textAlign: "center",
-            padding: "20px",
-            fontSize: "20px",
-            color: "red",
-            fontWeight: "bold",
-          }}
-        >
-          INDEX TEST KEREM
-        </div>
-
         <Divider className="mb-0" />
       </Layout>
     </>
