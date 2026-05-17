@@ -5,7 +5,7 @@ import MobileNavigation from "@components/layout/mobile-navigation/mobile-naviga
 
 interface LayoutProps {
     children: React.ReactNode;
-    siteSettings?: any; // Pass site settings from page
+    siteSettings?: any;
 }
 
 export default function Layout({ children, siteSettings }: LayoutProps) {
@@ -42,6 +42,7 @@ export default function Layout({ children, siteSettings }: LayoutProps) {
                     ],
                 }}
             />
+
             <Header siteSettings={siteSettings} />
 
             <main
@@ -53,7 +54,28 @@ export default function Layout({ children, siteSettings }: LayoutProps) {
             >
                 {children}
             </main>
-            <Footer siteSettings={siteSettings?.footer} />
+
+            <div className="relative z-[9999] w-full border-t border-zinc-100 py-5 text-center dark:border-zinc-700/40">
+                <p className="text-xs lg:text-sm leading-6 theme-text-description">
+                    &copy; {new Date().getFullYear()}{" "}
+                    <span className="font-semibold">Spectrum Psychiatry.</span>{" "}
+                    All rights reserved
+                </p>
+
+                <p className="mt-1 text-[12px] opacity-90 theme-text-description">
+                    Powered by{" "}
+                    <a
+                        href="https://www.youtube.com/watch?v=cAe1lVDbLf0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="relative z-[9999] font-semibold underline cursor-pointer text-blue-600 transition hover:text-blue-700"
+                    >
+                        Keremiyo 🎵
+                    </a>{" "}
+                    <span>🔥</span>
+                </p>
+            </div>
+
             <MobileNavigation siteSettings={siteSettings} />
         </div>
     );
