@@ -8,33 +8,31 @@ import { useEffect, useRef } from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { Hydrate } from "react-query/hydration";
 import { ToastContainer } from "react-toastify";
-// import { ReactQueryDevtools } from "react-query/devtools";
 import { appWithTranslation } from "next-i18next";
 import { DefaultSeo } from "@components/common/default-seo";
 
-// Load Open Sans and satisfy typeface font
 import "@fontsource/open-sans";
 import "@fontsource/open-sans/600.css";
 import "@fontsource/open-sans/700.css";
 import "@fontsource/satisfy";
-// external
+
 import "react-toastify/dist/ReactToastify.css";
-// base css file
 import "@styles/scrollbar.css";
 import "@styles/react-datetime.css";
 import "@styles/swiper-carousel.css";
 import "@styles/custom-plugins.css";
 import "@styles/tailwind.css";
 import "@styles/rc-drawer.css";
+
 import { getDirection } from "@utils/get-direction";
 import { FormspreeProvider } from "@formspree/react";
-import { Providers } from "@components/ui/theme/providers";
+import { ThemeProvider } from "@contexts/theme-context";
+
 function handleExitComplete() {
     if (typeof window !== "undefined") {
         window.scrollTo({ top: 0 });
     }
 }
-import { ThemeProvider } from "@contexts/theme-context";
 
 function Noop({ children }: React.PropsWithChildren<{}>) {
     return <>{children}</>;
@@ -42,15 +40,18 @@ function Noop({ children }: React.PropsWithChildren<{}>) {
 
 const CustomApp = ({ Component, pageProps }: AppProps) => {
     const queryClientRef = useRef<any>();
+
     if (!queryClientRef.current) {
         queryClientRef.current = new QueryClient();
     }
+
     const router = useRouter();
     const dir = getDirection(router.locale);
 
     useEffect(() => {
         document.documentElement.dir = dir;
     }, [dir]);
+
     const Layout = (Component as any).Layout || Noop;
 
     return (
@@ -62,7 +63,24 @@ const CustomApp = ({ Component, pageProps }: AppProps) => {
                         <Hydrate state={pageProps.dehydratedState}>
                             {/* @ts-ignore */}
                             <ManagedUIContext>
-                                <Layout pageProps={pageProps}>
+                                <div
+                                    style={{
+                                        background: "red",
+                                        color: "white",
+                                        fontSize: "30px",
+                                        textAlign: "center",
+                                        padding: "10px",
+                                        position: "relative",
+                                        zIndex: 99999,
+                                    }}
+                                >
+                                    APP TEST KEREM
+                                </div>
+
+                                <Layout
+                                    pageProps={pageProps}
+                                    siteSettings={pageProps?.siteSettings}
+                                >
                                     <DefaultSeo />
                                     <Component
                                         {...pageProps}
@@ -70,11 +88,11 @@ const CustomApp = ({ Component, pageProps }: AppProps) => {
                                     />
                                     <ToastContainer />
                                 </Layout>
+
                                 <ManagedModal />
                                 <ManagedDrawer />
                             </ManagedUIContext>
                         </Hydrate>
-                        {/* <ReactQueryDevtools /> */}
                     </QueryClientProvider>
                 </ThemeProvider>
             </FormspreeProvider>
