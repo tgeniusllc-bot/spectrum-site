@@ -46,17 +46,11 @@ export default function Home({
 
       <Layout siteSettings={siteSettings}>
         <HeroSectionOne query={{ nodeByUri: data }} />
-
         <AlternatingFeatureSections query={{ nodeByUri: data }} />
-
         <FeatureSectionOne query={{ nodeByUri: data }} />
-
         <AffiliateSection query={{ nodeByUri: data }} />
-
         <ServicesGridSection query={{ nodeByUri: data }} />
-
         <ThreeImageDetailsSection query={{ nodeByUri: data }} />
-
         <CTAWithTiles query={{ nodeByUri: data }} />
 
         <Container className="bg-theme">
@@ -102,6 +96,27 @@ export default function Home({
           </div>
         </Container>
 
+        <footer className="w-full border-t border-zinc-100 py-5 text-center dark:border-zinc-700/40">
+          <p className="text-xs lg:text-sm leading-6 theme-text-description">
+            &copy; {new Date().getFullYear()}{" "}
+            <span className="font-semibold">Spectrum Psychiatry.</span>{" "}
+            All rights reserved
+          </p>
+
+          <p className="mt-1 text-[12px] opacity-90 theme-text-description">
+            Powered by{" "}
+            <a
+              href="https://www.youtube.com/watch?v=cAe1lVDbLf0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold underline cursor-pointer text-blue-600 transition hover:text-blue-700"
+            >
+              Keremiyo 🎵
+            </a>{" "}
+            <span>🔥</span>
+          </p>
+        </footer>
+
         <Divider className="mb-0" />
       </Layout>
     </>
@@ -110,19 +125,14 @@ export default function Home({
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const filePath = path.join(process.cwd(), "data", "wordpressData.json");
-
   const fileContents = fs.readFileSync(filePath, "utf-8");
   const jsonData = JSON.parse(fileContents);
 
-  const homeData = jsonData?.home ?? null;
-  const contactInformationData = jsonData?.contactInformation ?? null;
-  const siteSettings = jsonData?.nextJsSiteSettings ?? null;
-
   return {
     props: {
-      data: homeData,
-      contactInformationData,
-      siteSettings,
+      data: jsonData?.home ?? null,
+      contactInformationData: jsonData?.contactInformation ?? null,
+      siteSettings: jsonData?.nextJsSiteSettings ?? null,
       ...(await serverSideTranslations(locale ?? "en", [
         "common",
         "forms",
