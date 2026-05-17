@@ -59,7 +59,6 @@ export default function Home({
 
         <CTAWithTiles query={{ nodeByUri: data }} />
 
-        {/* 🔥 YENİ EKLENEN SEO BLOĞU */}
         <Container className="bg-theme">
           <section className="py-12 lg:py-16 xl:max-w-screen-xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold theme-text-heading mb-5">
@@ -85,7 +84,6 @@ export default function Home({
           </section>
         </Container>
 
-        {/* İLETİŞİM BÖLÜMÜ */}
         <Container className="bg-theme">
           <div className="my-14 lg:my-16 xl:my-20 px-0 pb-2 xl:max-w-screen-xl mx-auto flex flex-col md:flex-row w-full bg-theme">
             <div className="md:w-full lg:w-2/5 2xl:w-2/6 flex flex-col h-full">
@@ -103,6 +101,18 @@ export default function Home({
             </div>
           </div>
         </Container>
+
+        <div
+          style={{
+            textAlign: "center",
+            padding: "20px",
+            fontSize: "20px",
+            color: "red",
+            fontWeight: "bold",
+          }}
+        >
+          INDEX TEST KEREM
+        </div>
 
         <Divider className="mb-0" />
       </Layout>
