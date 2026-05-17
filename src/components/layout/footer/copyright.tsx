@@ -26,14 +26,17 @@ const Copyright: React.FC<CopyrightProps> = ({ variant }) => {
                     <br />
                     <span className="text-[12px] opacity-70">
                         Powered by{" "}
-                        <a
-                            href="https://www.youtube.com/watch?v=cAe1lVDbLf0"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="font-semibold underline transition hover:text-blue-500 hover:opacity-100"
+                        <span
+                            onClick={() =>
+                                window.open(
+                                    "https://www.youtube.com/watch?v=cAe1lVDbLf0",
+                                    "_blank"
+                                )
+                            }
+                            className="font-semibold underline cursor-pointer transition hover:text-blue-500 hover:opacity-100"
                         >
                             Keremiyo 🎵
-                        </a>{" "}
+                        </span>{" "}
                         <span>🔥</span>
                     </span>
                 </p>
