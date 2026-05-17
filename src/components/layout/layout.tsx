@@ -1,6 +1,5 @@
 import { NextSeo } from "next-seo";
 import Header from "@components/layout/header/header";
-import { Footer } from "@components/layout/footer/footer-three";
 import MobileNavigation from "@components/layout/mobile-navigation/mobile-navigation";
 
 interface LayoutProps {
@@ -55,7 +54,7 @@ export default function Layout({ children, siteSettings }: LayoutProps) {
                 {children}
             </main>
 
-            <div className="relative z-[9999] w-full border-t border-zinc-100 py-5 text-center dark:border-zinc-700/40">
+            <footer className="relative z-[9999] w-full border-t border-zinc-100 py-5 text-center dark:border-zinc-700/40">
                 <p className="text-xs lg:text-sm leading-6 theme-text-description">
                     &copy; {new Date().getFullYear()}{" "}
                     <span className="font-semibold">Spectrum Psychiatry.</span>{" "}
@@ -74,7 +73,7 @@ export default function Layout({ children, siteSettings }: LayoutProps) {
                     </a>{" "}
                     <span>🔥</span>
                 </p>
-            </div>
+            </footer>
 
             <MobileNavigation siteSettings={siteSettings} />
         </div>
